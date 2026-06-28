@@ -1,0 +1,15 @@
+# Binary Specification: WPDShServiceObj.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\WPDShServiceObj.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `310ae96433ad22d3dffa3f249614cc95fbb9b6a3a284fe03f9dbfb9c59dd2683`
+* **Total Exported Functions:** 4
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `DllCanUnloadNow` | `0x3CC0` | 128 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 2 | `DllGetClassObject` | `0x3D40` | 364 | UnwindData |  |
+| 3 | `DllRegisterServer` | `0xA530` | 160 | UnwindData |  |
+| 4 | `DllUnregisterServer` | `0xA5E0` | 75 | UnwindData |  |

@@ -1,0 +1,146 @@
+# Binary Specification: PhoneOm.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\PhoneOm.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `2fab0424f9795785dc20063eb40d8f69e41e09a72daf08e3d02baa7b3de7b4ff`
+* **Total Exported Functions:** 135
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 14 | `PhoneAddListener` | `0x5DB0` | 184 | UnwindData |  |
+| 134 | `PhoneWaitForAPIReady` | `0x6D30` | 69 | UnwindData |  |
+| 64 | `PhoneGetLinesEx` | `0x71D0` | 291 | UnwindData |  |
+| 63 | `PhoneGetLines` | `0x7300` | 308 | UnwindData |  |
+| 81 | `PhoneIsActionAvailable` | `0x8250` | 803 | UnwindData |  |
+| 65 | `PhoneGetMute` | `0x8FC0` | 78 | UnwindData |  |
+| 6 | `GetBluetoothHandsFreeLineInfo` | `0x95B0` | 698 | UnwindData |  |
+| 51 | `PhoneGetCallInfo` | `0x9E10` | 511 | UnwindData |  |
+| 3 | `DllCanUnloadNow` | `0xA2F0` | 4 | UnwindData |  |
+| 70 | `PhoneGetProviderLineServiceInfo` | `0xA4B0` | 117 | UnwindData |  |
+| 74 | `PhoneGetState` | `0xBCF0` | 374 | UnwindData |  |
+| 61 | `PhoneGetLinePublicInfo` | `0xD8B0` | 269 | UnwindData |  |
+| 16 | `PhoneCallCapabilityAccessCheck` | `0xDCF0` | 506 | UnwindData |  |
+| 8 | `PhoneAPIInitialize` | `0xE350` | 125 | UnwindData |  |
+| 68 | `PhoneGetProviderLineInfo` | `0xF510` | 317 | UnwindData |  |
+| 56 | `PhoneGetDefaultOutgoingLine` | `0xF890` | 505 | UnwindData |  |
+| 4 | `DllGetActivationFactory` | `0x10000` | 828 | UnwindData |  |
+| 105 | `PhoneRemoveListener` | `0x11860` | 107 | UnwindData |  |
+| 1 | `CreatePhoneRpcClient` | `0x123A0` | 274 | UnwindData |  |
+| 9 | `PhoneAPIUninitialize` | `0x126C0` | 79 | UnwindData |  |
+| 36 | `PhoneFreeCallInfo` | `0x13F80` | 26,928 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 5 | `DllGetClassObject` | `0x1A8B0` | 87 | UnwindData |  |
+| 2 | `DTMFModeListener_CreateInstance` | `0x1E2E0` | 91 | UnwindData |  |
+| 94 | `PhoneNotificationHelper_CreateInstance` | `0x1E350` | 172 | UnwindData |  |
+| 7 | `IsCallOriginManagerSupported` | `0x1FB30` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 10 | `PhoneAcceptIncoming` | `0x1FB40` | 132 | UnwindData |  |
+| 11 | `PhoneAcceptIncomingEx` | `0x1FBD0` | 174 | UnwindData |  |
+| 12 | `PhoneAcceptUpgradingRealTimeTextCall` | `0x1FC90` | 175 | UnwindData |  |
+| 13 | `PhoneAcceptVideo` | `0x1FD50` | 175 | UnwindData |  |
+| 15 | `PhoneAddVideo` | `0x1FE10` | 175 | UnwindData |  |
+| 17 | `PhoneCancelNonSeamlessUpgrade` | `0x1FED0` | 189 | UnwindData |  |
+| 18 | `PhoneCheckLineOwnership` | `0x1FFA0` | 187 | UnwindData |  |
+| 19 | `PhoneClearIdleCallsFromController` | `0x20070` | 138 | UnwindData |  |
+| 20 | `PhoneConference` | `0x20100` | 217 | UnwindData |  |
+| 21 | `PhoneConfirmNonSeamlessUpgrade` | `0x201E0` | 189 | UnwindData |  |
+| 22 | `PhoneDial` | `0x202B0` | 380 | UnwindData |  |
+| 23 | `PhoneDowngradeFromRealTimeTextCall` | `0x20440` | 175 | UnwindData |  |
+| 24 | `PhoneDropAccept` | `0x20500` | 153 | UnwindData |  |
+| 25 | `PhoneDropAcceptEx` | `0x205A0` | 188 | UnwindData |  |
+| 26 | `PhoneDropVideo` | `0x20670` | 175 | UnwindData |  |
+| 27 | `PhoneEnableBluetoothHandsFree` | `0x20730` | 151 | UnwindData |  |
+| 28 | `PhoneEnd` | `0x207D0` | 127 | UnwindData |  |
+| 29 | `PhoneEndEx` | `0x20860` | 174 | UnwindData |  |
+| 30 | `PhoneExecutePendingDtmfWait` | `0x20920` | 183 | UnwindData |  |
+| 31 | `PhoneExitEmergencyMode` | `0x209E0` | 155 | UnwindData |  |
+| 32 | `PhoneExplicitCallTransfer` | `0x20A90` | 175 | UnwindData |  |
+| 33 | `PhoneFinishRecording` | `0x20B50` | 189 | UnwindData |  |
+| 34 | `PhoneFlash` | `0x20C20` | 191 | UnwindData |  |
+| 35 | `PhoneFormatPhoneNumber` | `0x20CF0` | 159 | UnwindData |  |
+| 37 | `PhoneFreeRecordingApplicationList` | `0x20DA0` | 132 | UnwindData |  |
+| 38 | `PhoneGetActiveAppByType` | `0x20E30` | 201 | UnwindData |  |
+| 39 | `PhoneGetActiveSpamFilterApp` | `0x20F00` | 201 | UnwindData |  |
+| 40 | `PhoneGetAggregateBranding` | `0x20FD0` | 192 | UnwindData |  |
+| 41 | `PhoneGetAllCallsForDeviceId` | `0x210A0` | 221 | UnwindData |  |
+| 42 | `PhoneGetAppListByType` | `0x21190` | 222 | UnwindData |  |
+| 43 | `PhoneGetAssistedDialNumber` | `0x21280` | 235 | UnwindData |  |
+| 44 | `PhoneGetAssistedDialSetting` | `0x21380` | 175 | UnwindData |  |
+| 45 | `PhoneGetAvailableActions` | `0x21440` | 366 | UnwindData |  |
+| 46 | `PhoneGetBlockPrivateNumbersSetting` | `0x215C0` | 199 | UnwindData |  |
+| 47 | `PhoneGetBlockUnknownNumbersSetting` | `0x21690` | 199 | UnwindData |  |
+| 48 | `PhoneGetBluetoothHandsFreeState` | `0x21760` | 272 | UnwindData |  |
+| 49 | `PhoneGetBrandingText` | `0x21880` | 238 | UnwindData |  |
+| 50 | `PhoneGetCallCounts` | `0x21980` | 168 | UnwindData |  |
+| 52 | `PhoneGetCallState` | `0x21A30` | 269 | UnwindData |  |
+| 53 | `PhoneGetCallsInConference` | `0x21B50` | 744 | UnwindData |  |
+| 54 | `PhoneGetCellularApiComponentInfo` | `0x21E40` | 201 | UnwindData |  |
+| 55 | `PhoneGetContactPictureHandle` | `0x21F10` | 202 | UnwindData |  |
+| 57 | `PhoneGetDeviceRealTimeTextAutomaticEnabled` | `0x21FE0` | 202 | UnwindData |  |
+| 58 | `PhoneGetDeviceRealTimeTextEnabled` | `0x220B0` | 202 | UnwindData |  |
+| 59 | `PhoneGetDeviceSupportsVideoCalling` | `0x22180` | 199 | UnwindData |  |
+| 60 | `PhoneGetElapsedTime` | `0x22250` | 484 | UnwindData |  |
+| 62 | `PhoneGetLinePublicSettings` | `0x22440` | 205 | UnwindData |  |
+| 66 | `PhoneGetNetworkAlert` | `0x22520` | 177 | UnwindData |  |
+| 67 | `PhoneGetPreferredCallUpgradeLine` | `0x225E0` | 268 | UnwindData |  |
+| 71 | `PhoneGetRecordingApplications` | `0x22700` | 251 | UnwindData |  |
+| 72 | `PhoneGetShouldMuteKeypad` | `0x22810` | 199 | UnwindData |  |
+| 73 | `PhoneGetSpeaker` | `0x228E0` | 272 | UnwindData |  |
+| 75 | `PhoneGetVideoCapabilities` | `0x22A00` | 201 | UnwindData |  |
+| 76 | `PhoneGetVideoCapabilitySharingSettings` | `0x22AD0` | 226 | UnwindData |  |
+| 77 | `PhoneGetWiredHeadsetState` | `0x22BC0` | 272 | UnwindData |  |
+| 78 | `PhoneHandleAppUninstallByType` | `0x22CE0` | 212 | UnwindData |  |
+| 79 | `PhoneInitiateCallUpgrade` | `0x22DC0` | 189 | UnwindData |  |
+| 80 | `PhoneInitiateRetrievalOfCIDRestrictionSupport` | `0x22E90` | 187 | UnwindData |  |
+| 82 | `PhoneIsDtmfWaitPending` | `0x22F60` | 202 | UnwindData |  |
+| 83 | `PhoneIsEmergencyNumber` | `0x23030` | 205 | UnwindData |  |
+| 84 | `PhoneIsImmediateDialString` | `0x23110` | 214 | UnwindData |  |
+| 85 | `PhoneIsPhoneNumberInBlockList` | `0x231F0` | 201 | UnwindData |  |
+| 86 | `PhoneIsVideoCallingEnabled` | `0x232C0` | 188 | UnwindData |  |
+| 87 | `PhoneIsVideoCallingSwitchActionable` | `0x23390` | 188 | UnwindData |  |
+| 88 | `PhoneIsVoiceRoamingRestrictionActive` | `0x23460` | 249 | UnwindData |  |
+| 89 | `PhoneMapIddPrefixToPlus` | `0x23560` | 219 | UnwindData |  |
+| 90 | `PhoneMapPlusToDialingPrefix` | `0x23650` | 375 | UnwindData |  |
+| 93 | `PhoneModifyVideoCallingSetting` | `0x237D0` | 259 | UnwindData |  |
+| 95 | `PhonePauseRecording` | `0x238E0` | 189 | UnwindData |  |
+| 96 | `PhonePrivate` | `0x239B0` | 165 | UnwindData |  |
+| 97 | `PhonePublicDial` | `0x23A60` | 285 | UnwindData |  |
+| 98 | `PhoneRefreshCallForwardingState` | `0x23B90` | 187 | UnwindData |  |
+| 99 | `PhoneRefreshEcbmState` | `0x23C60` | 162 | UnwindData |  |
+| 100 | `PhoneRefreshVideoCallingSetting` | `0x23D10` | 151 | UnwindData |  |
+| 101 | `PhoneRejectIncoming` | `0x23DB0` | 127 | UnwindData |  |
+| 102 | `PhoneRejectIncomingEx` | `0x23E40` | 182 | UnwindData |  |
+| 103 | `PhoneRejectIncomingForTextReply` | `0x23F00` | 88 | UnwindData |  |
+| 104 | `PhoneRejectVideo` | `0x23F60` | 175 | UnwindData |  |
+| 106 | `PhoneSendDTMF` | `0x24020` | 231 | UnwindData |  |
+| 107 | `PhoneSendDTMFStart` | `0x24110` | 215 | UnwindData |  |
+| 108 | `PhoneSendDTMFStop` | `0x241F0` | 202 | UnwindData |  |
+| 109 | `PhoneSendRealTimeTextData` | `0x242C0` | 235 | UnwindData |  |
+| 110 | `PhoneSetActiveAppByType` | `0x243C0` | 212 | UnwindData |  |
+| 111 | `PhoneSetActiveSpamFilterApp` | `0x244A0` | 205 | UnwindData |  |
+| 112 | `PhoneSetBlockPrivateNumbersSetting` | `0x24580` | 199 | UnwindData |  |
+| 113 | `PhoneSetBlockUnknownNumbersSetting` | `0x24650` | 199 | UnwindData |  |
+| 114 | `PhoneSetBluetoothHfpCallAudioTransfer` | `0x24720` | 231 | UnwindData |  |
+| 115 | `PhoneSetCallOriginInfo` | `0x24810` | 74 | UnwindData |  |
+| 116 | `PhoneSetCallerAsActiveAppByType` | `0x24860` | 201 | UnwindData |  |
+| 117 | `PhoneSetFilterAppBlockList` | `0x24930` | 201 | UnwindData |  |
+| 118 | `PhoneSetForegroundLine` | `0x24A00` | 187 | UnwindData |  |
+| 119 | `PhoneSetHold` | `0x24AD0` | 145 | UnwindData |  |
+| 120 | `PhoneSetHoldEx` | `0x24B70` | 188 | UnwindData |  |
+| 121 | `PhoneSetLocalVideo` | `0x24C40` | 212 | UnwindData |  |
+| 122 | `PhoneSetMute` | `0x24D20` | 222 | UnwindData |  |
+| 123 | `PhoneSetPreferredCallUpgradeLine` | `0x24E10` | 175 | UnwindData |  |
+| 124 | `PhoneSetRecordingApplication` | `0x24ED0` | 192 | UnwindData |  |
+| 125 | `PhoneSetReminderInfo` | `0x24FA0` | 239 | UnwindData |  |
+| 126 | `PhoneSetSpeaker` | `0x250A0` | 150 | UnwindData |  |
+| 127 | `PhoneSetVideoCapabilitySharingSettings` | `0x25140` | 212 | UnwindData |  |
+| 128 | `PhoneSetVideoPaused` | `0x25220` | 212 | UnwindData |  |
+| 129 | `PhoneSpamFilteringEnabled` | `0x25300` | 199 | UnwindData |  |
+| 130 | `PhoneStartRecording` | `0x253D0` | 189 | UnwindData |  |
+| 131 | `PhoneSwap` | `0x254A0` | 148 | UnwindData |  |
+| 132 | `PhoneSwapEx` | `0x25540` | 188 | UnwindData |  |
+| 133 | `PhoneUpgradeToRealTimeTextCall` | `0x25610` | 175 | UnwindData |  |
+| 69 | `PhoneGetProviderLineLockInfo` | `0x257A0` | 117 | UnwindData |  |
+| 91 | `PhoneModifyCallForwarding` | `0x25820` | 243 | UnwindData |  |
+| 92 | `PhoneModifyCallerIdSetting` | `0x25920` | 163 | UnwindData |  |
+| 135 | `ShouldPlayCallWaitingTone` | `0x259D0` | 124 | UnwindData |  |

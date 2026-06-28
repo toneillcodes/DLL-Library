@@ -1,0 +1,14 @@
+# Binary Specification: Windows.Internal.PlatformExtension.MiracastBannerExperience.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\Windows.Internal.PlatformExtension.MiracastBannerExperience.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `c6fc286dcea5f71cd5cac66ff36ca6559a1e737ef9afa28f88fcca3418da59bb`
+* **Total Exported Functions:** 3
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `DllCanUnloadNow` | `0x7580` | 70 | UnwindData |  |
+| 2 | `DllGetActivationFactory` | `0x75D0` | 466 | UnwindData |  |
+| 3 | `DllGetClassObject` | `0x77B0` | 232 | UnwindData |  |

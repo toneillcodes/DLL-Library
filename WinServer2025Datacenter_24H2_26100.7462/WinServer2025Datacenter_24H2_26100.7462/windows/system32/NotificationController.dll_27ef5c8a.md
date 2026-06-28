@@ -1,0 +1,14 @@
+# Binary Specification: NotificationController.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\NotificationController.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `27ef5c8a07e92b9d002d5d731644aae19839453c402cf9a0133536b5c7a70e74`
+* **Total Exported Functions:** 3
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `DllCanUnloadNow` | `0x666B0` | 316 | UnwindData |  |
+| 3 | `DllGetClassObject` | `0x66800` | 175 | UnwindData |  |
+| 2 | `DllGetActivationFactory` | `0xA37D0` | 45 | UnwindData |  |

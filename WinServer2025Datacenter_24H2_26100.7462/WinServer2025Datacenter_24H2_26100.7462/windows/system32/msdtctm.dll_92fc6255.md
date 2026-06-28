@@ -1,0 +1,21 @@
+# Binary Specification: msdtctm.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\msdtctm.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `92fc6255aa04813c32c2f17b344be3ba47b6dba8815cd29d0614f4afbd33d90f`
+* **Total Exported Functions:** 10
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 4 | `DtcMainExt` | `0x42E0` | 5,009 | UnwindData |  |
+| 11 | `DllGetClassObject` | `0x10960` | 459 | UnwindData |  |
+| 9 | `CreateInstance` | `0x2EF00` | 203 | UnwindData |  |
+| 7 | `ASCDefer` | `0x7F3C0` | 126 | UnwindData |  |
+| 6 | `ASCDeliverDeferred` | `0x7F450` | 126 | UnwindData |  |
+| 8 | `ASCGetSafeReference` | `0x7F4E0` | 145 | UnwindData |  |
+| 5 | `ASCWrapObject` | `0x7F580` | 311 | UnwindData |  |
+| 10 | `ASCWrapClassFactory` | `0x7F6C0` | 275 | UnwindData |  |
+| 12 | `GetTipFunctionalityWorking` | `0x83640` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 13 | `SetTipFunctionalityWorking` | `0x83650` | 273,692 | SectionBoundedDelta | *Size estimated via contiguous RVA delta.* |

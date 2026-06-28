@@ -1,0 +1,92 @@
+# Directory Inventory: `/windows/system32/wbem`
+
+[⬅ Back to Root System Index](../../../README.md)
+
+### Binary Inventory Table of Contents
+
+| Binary Name | Architecture | Exports Count | SHA256 (Short) | Details Link |
+| :--- | :---: | :---: | :---: | :--- |
+| **appbackgroundtask.dll** | x64 | 7 | `ce136201f7` | [View Specification](./appbackgroundtask.dll_ce136201.md) |
+| **cimwin32.dll** | x64 | 12 | `cd3756466b` | [View Specification](./cimwin32.dll_cd375646.md) |
+| **DMWmiBridgeProv.dll** | x64 | 7 | `40bf1c79e4` | [View Specification](./DMWmiBridgeProv.dll_40bf1c79.md) |
+| **DMWmiBridgeProv1.dll** | x64 | 7 | `f58e46d252` | [View Specification](./DMWmiBridgeProv1.dll_f58e46d2.md) |
+| **dnsclientcim.dll** | x64 | 7 | `baa2b3ef8c` | [View Specification](./dnsclientcim.dll_baa2b3ef.md) |
+| **dnsclientpsprovider.dll** | x64 | 7 | `b5a5731eb9` | [View Specification](./dnsclientpsprovider.dll_b5a5731e.md) |
+| **Dscpspluginwkr.dll** | x64 | 10 | `e733796d44` | [View Specification](./Dscpspluginwkr.dll_e733796d.md) |
+| **dsprov.dll** | x64 | 4 | `da0a4bbc27` | [View Specification](./dsprov.dll_da0a4bbc.md) |
+| **esscli.dll** | x64 | 169 | `d0e9d7a21b` | [View Specification](./esscli.dll_d0e9d7a2.md) |
+| **EventTracingManagement.dll** | x64 | 7 | `30b47225be` | [View Specification](./EventTracingManagement.dll_30b47225.md) |
+| **fastprox.dll** | x64 | 1572 | `d8561555e6` | [View Specification](./fastprox.dll_d8561555.md) |
+| **ipmiprv.dll** | x64 | 4 | `a5bcbc4024` | [View Specification](./ipmiprv.dll_a5bcbc40.md) |
+| **KrnlProv.dll** | x64 | 4 | `e11e3c9738` | [View Specification](./KrnlProv.dll_e11e3c97.md) |
+| **MDMAppProv.dll** | x64 | 7 | `cacc08fae3` | [View Specification](./MDMAppProv.dll_cacc08fa.md) |
+| **MDMSettingsProv.dll** | x64 | 7 | `95615f759f` | [View Specification](./MDMSettingsProv.dll_95615f75.md) |
+| **mgmtprovider.dll** | x64 | 776 | `5da56046bc` | [View Specification](./mgmtprovider.dll_5da56046.md) |
+| **Microsoft.Uev.AgentWmi.dll** | x64 | 5 | `366dfea183` | [View Specification](./Microsoft.Uev.AgentWmi.dll_366dfea1.md) |
+| **mistreamprov.dll** | x64 | 7 | `450dc916cd` | [View Specification](./mistreamprov.dll_450dc916.md) |
+| **MMFUtil.dll** | x64 | 7 | `7dc45d9a03` | [View Specification](./MMFUtil.dll_7dc45d9a.md) |
+| **mofd.dll** | x64 | 6 | `848a182040` | [View Specification](./mofd.dll_848a1820.md) |
+| **mofinstall.dll** | x64 | 2 | `5e137588d2` | [View Specification](./mofinstall.dll_5e137588.md) |
+| **msdtcwmi.dll** | x64 | 7 | `7b4eb8017b` | [View Specification](./msdtcwmi.dll_7b4eb801.md) |
+| **msiprov.dll** | x64 | 5 | `2947ba7fed` | [View Specification](./msiprov.dll_2947ba7f.md) |
+| **mttmprov.dll** | x64 | 11 | `d3ba29ad10` | [View Specification](./mttmprov.dll_d3ba29ad.md) |
+| **NCProv.dll** | x64 | 4 | `932db503b3` | [View Specification](./NCProv.dll_932db503.md) |
+| **ndisimplatcim.dll** | x64 | 7 | `a129adc4f9` | [View Specification](./ndisimplatcim.dll_a129adc4.md) |
+| **NetAdapterCim.dll** | x64 | 7 | `149736bacf` | [View Specification](./NetAdapterCim.dll_149736ba.md) |
+| **netdacim.dll** | x64 | 7 | `88ef9fe68f` | [View Specification](./netdacim.dll_88ef9fe6.md) |
+| **NetEventPacketCapture.dll** | x64 | 7 | `184abf3140` | [View Specification](./NetEventPacketCapture.dll_184abf31.md) |
+| **NetNat.dll** | x64 | 7 | `eb0a3c2df8` | [View Specification](./NetNat.dll_eb0a3c2d.md) |
+| **netnccim.dll** | x64 | 7 | `97aa283c64` | [View Specification](./netnccim.dll_97aa283c.md) |
+| **NetPeerDistCim.dll** | x64 | 7 | `183327a06d` | [View Specification](./NetPeerDistCim.dll_183327a0.md) |
+| **netswitchteamcim.dll** | x64 | 7 | `76a5bfc1c7` | [View Specification](./netswitchteamcim.dll_76a5bfc1.md) |
+| **NetTCPIP.dll** | x64 | 7 | `e15e261339` | [View Specification](./NetTCPIP.dll_e15e2613.md) |
+| **netttcim.dll** | x64 | 7 | `d40891e078` | [View Specification](./netttcim.dll_d40891e0.md) |
+| **nlmcim.dll** | x64 | 7 | `6a51eb8ab4` | [View Specification](./nlmcim.dll_6a51eb8a.md) |
+| **ntevt.dll** | x64 | 4 | `91be9f420e` | [View Specification](./ntevt.dll_91be9f42.md) |
+| **platid.dll** | x64 | 7 | `99fd7ff085` | [View Specification](./platid.dll_99fd7ff0.md) |
+| **PolicMan.dll** | x64 | 5 | `5d4176b026` | [View Specification](./PolicMan.dll_5d4176b0.md) |
+| **PrintManagementProvider.dll** | x64 | 7 | `caa6bce496` | [View Specification](./PrintManagementProvider.dll_caa6bce4.md) |
+| **qoswmi.dll** | x64 | 7 | `b5b94283fc` | [View Specification](./qoswmi.dll_b5b94283.md) |
+| **RacWmiProv.dll** | x64 | 4 | `618ef1dacf` | [View Specification](./RacWmiProv.dll_618ef1da.md) |
+| **regprov.dll** | x64 | 7 | `d975cc68c1` | [View Specification](./regprov.dll_d975cc68.md) |
+| **repdrvfs.dll** | x64 | 8 | `f77816e630` | [View Specification](./repdrvfs.dll_f77816e6.md) |
+| **schedprov.dll** | x64 | 7 | `da006f816c` | [View Specification](./schedprov.dll_da006f81.md) |
+| **SDNDiagnosticsProvider.dll** | x64 | 7 | `88fb4e0e63` | [View Specification](./SDNDiagnosticsProvider.dll_88fb4e0e.md) |
+| **ServDeps.dll** | x64 | 4 | `cab1a781c5` | [View Specification](./ServDeps.dll_cab1a781.md) |
+| **servercompprov.dll** | x64 | 4 | `f5a2d26fa7` | [View Specification](./servercompprov.dll_f5a2d26f.md) |
+| **ServerManager.DeploymentProvider.dll** | x64 | 7 | `c8b713bbcd` | [View Specification](./ServerManager.DeploymentProvider.dll_c8b713bb.md) |
+| **silprovider.dll** | x64 | 7 | `a6acdbf23f` | [View Specification](./silprovider.dll_a6acdbf2.md) |
+| **SMTPCons.dll** | x64 | 4 | `f3fcbdccdd` | [View Specification](./SMTPCons.dll_f3fcbdcc.md) |
+| **stdprov.dll** | x64 | 4 | `c659226de3` | [View Specification](./stdprov.dll_c659226d.md) |
+| **ualprov.dll** | x64 | 7 | `d2db298611` | [View Specification](./ualprov.dll_d2db2986.md) |
+| **vdswmi.dll** | x64 | 4 | `c00eb7204f` | [View Specification](./vdswmi.dll_c00eb720.md) |
+| **viewprov.dll** | x64 | 4 | `ed87c9d015` | [View Specification](./viewprov.dll_ed87c9d0.md) |
+| **vpnclientpsprovider.dll** | x64 | 7 | `ba0a6485ca` | [View Specification](./vpnclientpsprovider.dll_ba0a6485.md) |
+| **vsswmi.dll** | x64 | 4 | `752515a9e7` | [View Specification](./vsswmi.dll_752515a9.md) |
+| **wbemcntl.dll** | x64 | 4 | `2dd076ea03` | [View Specification](./wbemcntl.dll_2dd076ea.md) |
+| **wbemcons.dll** | x64 | 4 | `6289574d31` | [View Specification](./wbemcons.dll_6289574d.md) |
+| **wbemcore.dll** | x64 | 6 | `c53a87fc39` | [View Specification](./wbemcore.dll_c53a87fc.md) |
+| **wbemdisp.dll** | x64 | 4 | `23e3d439c2` | [View Specification](./wbemdisp.dll_23e3d439.md) |
+| **wbemess.dll** | x64 | 4 | `09d6f69f2a` | [View Specification](./wbemess.dll_09d6f69f.md) |
+| **wbemprox.dll** | x64 | 4 | `637fc7d29c` | [View Specification](./wbemprox.dll_637fc7d2.md) |
+| **wbemsvc.dll** | x64 | 4 | `f0b0d2c431` | [View Specification](./wbemsvc.dll_f0b0d2c4.md) |
+| **WdacWmiProv.dll** | x64 | 7 | `32e49a48bb` | [View Specification](./WdacWmiProv.dll_32e49a48.md) |
+| **wfascim.dll** | x64 | 7 | `72f60b96dc` | [View Specification](./wfascim.dll_72f60b96.md) |
+| **Win32_Tpm.dll** | x64 | 4 | `c5fd7ea973` | [View Specification](./Win32_Tpm.dll_c5fd7ea9.md) |
+| **WmiApRpl.dll** | x64 | 5 | `48bf44bdcc` | [View Specification](./WmiApRpl.dll_48bf44bd.md) |
+| **WMICOOKR.dll** | x64 | 83 | `60809e1511` | [View Specification](./WMICOOKR.dll_60809e15.md) |
+| **WmiDcPrv.dll** | x64 | 4 | `a650c2dd91` | [View Specification](./WmiDcPrv.dll_a650c2dd.md) |
+| **wmipcima.dll** | x64 | 4 | `50e471cb7e` | [View Specification](./wmipcima.dll_50e471cb.md) |
+| **wmipdfs.dll** | x64 | 4 | `771e26f2a7` | [View Specification](./wmipdfs.dll_771e26f2.md) |
+| **wmipdskq.dll** | x64 | 4 | `5e7ee0d29a` | [View Specification](./wmipdskq.dll_5e7ee0d2.md) |
+| **WmiPerfClass.dll** | x64 | 4 | `6b55ca936e` | [View Specification](./WmiPerfClass.dll_6b55ca93.md) |
+| **WmiPerfInst.dll** | x64 | 4 | `4c798b7015` | [View Specification](./WmiPerfInst.dll_4c798b70.md) |
+| **WMIPICMP.dll** | x64 | 4 | `301a68901c` | [View Specification](./WMIPICMP.dll_301a6890.md) |
+| **WMIPIPRT.dll** | x64 | 4 | `76585a83c2` | [View Specification](./WMIPIPRT.dll_76585a83.md) |
+| **WMIPJOBJ.dll** | x64 | 4 | `7ffa6c8d85` | [View Specification](./WMIPJOBJ.dll_7ffa6c8d.md) |
+| **wmiprov.dll** | x64 | 4 | `a9fb3d2bc4` | [View Specification](./wmiprov.dll_a9fb3d2b.md) |
+| **WmiPrvSD.dll** | x64 | 4 | `3cff984c1e` | [View Specification](./WmiPrvSD.dll_3cff984c.md) |
+| **WMIPSESS.dll** | x64 | 4 | `f13c059563` | [View Specification](./WMIPSESS.dll_f13c0595.md) |
+| **WMIsvc.dll** | x64 | 334 | `84f84b008d` | [View Specification](./WMIsvc.dll_84f84b00.md) |
+| **wmitimep.dll** | x64 | 4 | `8624b8aaaa` | [View Specification](./wmitimep.dll_8624b8aa.md) |
+| **wmiutils.dll** | x64 | 4 | `c5dc7d2231` | [View Specification](./wmiutils.dll_c5dc7d22.md) |

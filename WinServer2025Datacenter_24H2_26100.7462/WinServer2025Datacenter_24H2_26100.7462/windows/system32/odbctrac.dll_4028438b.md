@@ -1,0 +1,135 @@
+# Binary Specification: odbctrac.dll
+
+## Binary Metadata
+* **Original Path:** `c:\windows\system32\odbctrac.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `4028438bb488ec6c0483c61d5585ea62d94589a201fcce8f266caf059f551e1d`
+* **Total Exported Functions:** 124
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `TraceSQLAllocConnect` | `0x1010` | 259 | UnwindData |  |
+| 2 | `TraceSQLAllocEnv` | `0x1A10` | 140 | UnwindData |  |
+| 24 | `TraceSQLAllocHandle` | `0x1AB0` | 224 | UnwindData |  |
+| 77 | `TraceSQLAllocHandleStd` | `0x1BA0` | 224 | UnwindData |  |
+| 177 | `TraceSQLAllocHandleStdW` | `0x1C90` | 231 | UnwindData |  |
+| 3 | `TraceSQLAllocStmt` | `0x1D80` | 181 | UnwindData |  |
+| 4 | `TraceSQLBindCol` | `0x1E40` | 325 | UnwindData |  |
+| 25 | `TraceSQLBindParam` | `0x1F90` | 365 | UnwindData |  |
+| 72 | `TraceSQLBindParameter` | `0x2110` | 431 | UnwindData |  |
+| 55 | `TraceSQLBrowseConnect` | `0x22D0` | 307 | UnwindData |  |
+| 155 | `TraceSQLBrowseConnectW` | `0x2410` | 316 | UnwindData |  |
+| 78 | `TraceSQLBulkOperations` | `0x2560` | 182 | UnwindData |  |
+| 5 | `TraceSQLCancel` | `0x2620` | 140 | UnwindData |  |
+| 79 | `TraceSQLCancelHandle` | `0x26C0` | 182 | UnwindData |  |
+| 26 | `TraceSQLCloseCursor` | `0x2780` | 140 | UnwindData |  |
+| 27 | `TraceSQLColAttribute` | `0x2820` | 330 | UnwindData |  |
+| 127 | `TraceSQLColAttributeW` | `0x2970` | 340 | UnwindData |  |
+| 6 | `TraceSQLColAttributes` | `0x2AD0` | 346 | UnwindData |  |
+| 106 | `TraceSQLColAttributesW` | `0x2C30` | 353 | UnwindData |  |
+| 56 | `TraceSQLColumnPrivileges` | `0x2DA0` | 364 | UnwindData |  |
+| 156 | `TraceSQLColumnPrivilegesW` | `0x2F20` | 375 | UnwindData |  |
+| 40 | `TraceSQLColumns` | `0x30A0` | 364 | UnwindData |  |
+| 140 | `TraceSQLColumnsW` | `0x3220` | 375 | UnwindData |  |
+| 80 | `TraceSQLCompleteAsync` | `0x33A0` | 224 | UnwindData |  |
+| 81 | `TraceSQLCompleteAsyncW` | `0x3490` | 231 | UnwindData |  |
+| 7 | `TraceSQLConnect` | `0x3580` | 318 | UnwindData |  |
+| 107 | `TraceSQLConnectW` | `0x36D0` | 328 | UnwindData |  |
+| 28 | `TraceSQLCopyDesc` | `0x3820` | 170 | UnwindData |  |
+| 57 | `TraceSQLDataSources` | `0x38D0` | 356 | UnwindData |  |
+| 157 | `TraceSQLDataSourcesW` | `0x3A40` | 362 | UnwindData |  |
+| 8 | `TraceSQLDescribeCol` | `0x3BB0` | 392 | UnwindData |  |
+| 108 | `TraceSQLDescribeColW` | `0x3D40` | 396 | UnwindData |  |
+| 58 | `TraceSQLDescribeParam` | `0x3EE0` | 305 | UnwindData |  |
+| 9 | `TraceSQLDisconnect` | `0x4020` | 140 | UnwindData |  |
+| 41 | `TraceSQLDriverConnect` | `0x40C0` | 373 | UnwindData |  |
+| 141 | `TraceSQLDriverConnectW` | `0x4240` | 380 | UnwindData |  |
+| 71 | `TraceSQLDrivers` | `0x43D0` | 356 | UnwindData |  |
+| 171 | `TraceSQLDriversW` | `0x4540` | 362 | UnwindData |  |
+| 29 | `TraceSQLEndTran` | `0x46B0` | 214 | UnwindData |  |
+| 10 | `TraceSQLError` | `0x4790` | 382 | UnwindData |  |
+| 110 | `TraceSQLErrorW` | `0x4920` | 389 | UnwindData |  |
+| 11 | `TraceSQLExecDirect` | `0x4AB0` | 223 | UnwindData |  |
+| 111 | `TraceSQLExecDirectW` | `0x4BA0` | 230 | UnwindData |  |
+| 12 | `TraceSQLExecute` | `0x4C90` | 140 | UnwindData |  |
+| 59 | `TraceSQLExtendedFetch` | `0x4D30` | 295 | UnwindData |  |
+| 13 | `TraceSQLFetch` | `0x4E60` | 140 | UnwindData |  |
+| 30 | `TraceSQLFetchScroll` | `0x4F00` | 224 | UnwindData |  |
+| 60 | `TraceSQLForeignKeys` | `0x4FF0` | 465 | UnwindData |  |
+| 160 | `TraceSQLForeignKeysW` | `0x51D0` | 471 | UnwindData |  |
+| 14 | `TraceSQLFreeConnect` | `0x53B0` | 140 | UnwindData |  |
+| 15 | `TraceSQLFreeEnv` | `0x5450` | 136 | UnwindData |  |
+| 31 | `TraceSQLFreeHandle` | `0x54E0` | 182 | UnwindData |  |
+| 16 | `TraceSQLFreeStmt` | `0x55A0` | 181 | UnwindData |  |
+| 32 | `TraceSQLGetConnectAttr` | `0x5660` | 284 | UnwindData |  |
+| 132 | `TraceSQLGetConnectAttrW` | `0x5790` | 290 | UnwindData |  |
+| 42 | `TraceSQLGetConnectOption` | `0x58C0` | 223 | UnwindData |  |
+| 142 | `TraceSQLGetConnectOptionW` | `0x59B0` | 230 | UnwindData |  |
+| 17 | `TraceSQLGetCursorName` | `0x5AA0` | 263 | UnwindData |  |
+| 117 | `TraceSQLGetCursorNameW` | `0x5BB0` | 270 | UnwindData |  |
+| 43 | `TraceSQLGetData` | `0x5CD0` | 325 | UnwindData |  |
+| 33 | `TraceSQLGetDescField` | `0x5E20` | 319 | UnwindData |  |
+| 133 | `TraceSQLGetDescFieldW` | `0x5F70` | 326 | UnwindData |  |
+| 34 | `TraceSQLGetDescRec` | `0x60C0` | 433 | UnwindData |  |
+| 134 | `TraceSQLGetDescRecW` | `0x6280` | 440 | UnwindData |  |
+| 35 | `TraceSQLGetDiagField` | `0x6440` | 332 | UnwindData |  |
+| 135 | `TraceSQLGetDiagFieldW` | `0x65A0` | 338 | UnwindData |  |
+| 36 | `TraceSQLGetDiagRec` | `0x6700` | 368 | UnwindData |  |
+| 136 | `TraceSQLGetDiagRecW` | `0x6880` | 373 | UnwindData |  |
+| 37 | `TraceSQLGetEnvAttr` | `0x6A00` | 284 | UnwindData |  |
+| 44 | `TraceSQLGetFunctions` | `0x6B30` | 223 | UnwindData |  |
+| 45 | `TraceSQLGetInfo` | `0x6C20` | 296 | UnwindData |  |
+| 145 | `TraceSQLGetInfoW` | `0x6D50` | 303 | UnwindData |  |
+| 38 | `TraceSQLGetStmtAttr` | `0x6E90` | 284 | UnwindData |  |
+| 138 | `TraceSQLGetStmtAttrW` | `0x6FC0` | 290 | UnwindData |  |
+| 46 | `TraceSQLGetStmtOption` | `0x70F0` | 223 | UnwindData |  |
+| 47 | `TraceSQLGetTypeInfo` | `0x71E0` | 182 | UnwindData |  |
+| 147 | `TraceSQLGetTypeInfoW` | `0x72A0` | 189 | UnwindData |  |
+| 61 | `TraceSQLMoreResults` | `0x7370` | 140 | UnwindData |  |
+| 62 | `TraceSQLNativeSql` | `0x7410` | 305 | UnwindData |  |
+| 162 | `TraceSQLNativeSqlW` | `0x7550` | 314 | UnwindData |  |
+| 63 | `TraceSQLNumParams` | `0x7690` | 181 | UnwindData |  |
+| 18 | `TraceSQLNumResultCols` | `0x7750` | 181 | UnwindData |  |
+| 48 | `TraceSQLParamData` | `0x7810` | 181 | UnwindData |  |
+| 64 | `TraceSQLParamOptions` | `0x78D0` | 223 | UnwindData |  |
+| 19 | `TraceSQLPrepare` | `0x79C0` | 223 | UnwindData |  |
+| 119 | `TraceSQLPrepareW` | `0x7AB0` | 230 | UnwindData |  |
+| 65 | `TraceSQLPrimaryKeys` | `0x7BA0` | 319 | UnwindData |  |
+| 165 | `TraceSQLPrimaryKeysW` | `0x7CF0` | 329 | UnwindData |  |
+| 66 | `TraceSQLProcedureColumns` | `0x7E40` | 364 | UnwindData |  |
+| 166 | `TraceSQLProcedureColumnsW` | `0x7FC0` | 375 | UnwindData |  |
+| 67 | `TraceSQLProcedures` | `0x8140` | 319 | UnwindData |  |
+| 167 | `TraceSQLProceduresW` | `0x8290` | 329 | UnwindData |  |
+| 49 | `TraceSQLPutData` | `0x83E0` | 223 | UnwindData |  |
+| 20 | `TraceSQLRowCount` | `0x84D0` | 181 | UnwindData |  |
+| 39 | `TraceSQLSetConnectAttr` | `0x8590` | 251 | UnwindData |  |
+| 139 | `TraceSQLSetConnectAttrW` | `0x86A0` | 257 | UnwindData |  |
+| 50 | `TraceSQLSetConnectOption` | `0x87B0` | 223 | UnwindData |  |
+| 150 | `TraceSQLSetConnectOptionW` | `0x88A0` | 230 | UnwindData |  |
+| 21 | `TraceSQLSetCursorName` | `0x8990` | 224 | UnwindData |  |
+| 121 | `TraceSQLSetCursorNameW` | `0x8A80` | 231 | UnwindData |  |
+| 73 | `TraceSQLSetDescField` | `0x8B70` | 286 | UnwindData |  |
+| 173 | `TraceSQLSetDescFieldW` | `0x8CA0` | 292 | UnwindData |  |
+| 74 | `TraceSQLSetDescRec` | `0x8DD0` | 411 | UnwindData |  |
+| 75 | `TraceSQLSetEnvAttr` | `0x8F80` | 251 | UnwindData |  |
+| 22 | `TraceSQLSetParam` | `0x9090` | 372 | UnwindData |  |
+| 68 | `TraceSQLSetPos` | `0x9210` | 263 | UnwindData |  |
+| 69 | `TraceSQLSetScrollOptions` | `0x9320` | 252 | UnwindData |  |
+| 76 | `TraceSQLSetStmtAttr` | `0x9430` | 251 | UnwindData |  |
+| 176 | `TraceSQLSetStmtAttrW` | `0x9540` | 257 | UnwindData |  |
+| 51 | `TraceSQLSetStmtOption` | `0x9650` | 223 | UnwindData |  |
+| 52 | `TraceSQLSpecialColumns` | `0x9740` | 400 | UnwindData |  |
+| 152 | `TraceSQLSpecialColumnsW` | `0x98E0` | 407 | UnwindData |  |
+| 53 | `TraceSQLStatistics` | `0x9A80` | 375 | UnwindData |  |
+| 153 | `TraceSQLStatisticsW` | `0x9C00` | 380 | UnwindData |  |
+| 70 | `TraceSQLTablePrivileges` | `0x9D90` | 319 | UnwindData |  |
+| 170 | `TraceSQLTablePrivilegesW` | `0x9EE0` | 329 | UnwindData |  |
+| 54 | `TraceSQLTables` | `0xA030` | 364 | UnwindData |  |
+| 154 | `TraceSQLTablesW` | `0xA1B0` | 375 | UnwindData |  |
+| 23 | `TraceSQLTransact` | `0xA330` | 221 | UnwindData |  |
+| 302 | `TraceCloseLogFile` | `0xCB20` | 52 | UnwindData |  |
+| 301 | `TraceOpenLogFile` | `0xCB60` | 532 | UnwindData |  |
+| 300 | `TraceReturn` | `0xCD80` | 124 | UnwindData |  |
+| 82 | `TraceVSControl` | `0xCE10` | 32 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 303 | `TraceVersion` | `0xCE30` | 0 | Indeterminate |  |
