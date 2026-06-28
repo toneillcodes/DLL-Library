@@ -1,0 +1,14 @@
+# Binary Specification: Windows.Internal.CapturePicker.Desktop.dll
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\Windows.Internal.CapturePicker.Desktop.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `3874a2547a17464d61dd3048d1dbef4ee1d179fca5752cbad7d8c768e187f74f`
+* **Total Exported Functions:** 3
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `DllCanUnloadNow` | `0x3E00` | 42 | UnwindData |  |
+| 2 | `DllGetActivationFactory` | `0x3E30` | 45 | UnwindData |  |
+| 3 | `DllGetClassObject` | `0x3E70` | 65 | UnwindData |  |

@@ -1,0 +1,134 @@
+# Binary Specification: Intel_OpenCL_ICD64.dll
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_188be4c1587f7330\Intel_OpenCL_ICD64.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `3b684b429f3fb2d51b9b1130c42bf5ec14a4e9e2953137f83d0676a392975c68`
+* **Total Exported Functions:** 123
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `clBuildProgram` | `0x1420` | 46 | UnwindData |  |
+| 2 | `clCloneKernel` | `0x14A0` | 96 | UnwindData |  |
+| 3 | `clCompileProgram` | `0x1500` | 46 | UnwindData |  |
+| 4 | `clCreateBuffer` | `0x15B0` | 61 | UnwindData |  |
+| 5 | `clCreateBufferWithProperties` | `0x1640` | 61 | UnwindData |  |
+| 6 | `clCreateCommandQueue` | `0x16D0` | 57 | UnwindData |  |
+| 7 | `clCreateCommandQueueWithProperties` | `0x1750` | 57 | UnwindData |  |
+| 8 | `clCreateContext` | `0x17D0` | 75 | UnwindData |  |
+| 9 | `clCreateContextFromType` | `0x1880` | 93 | UnwindData |  |
+| 10 | `clCreateFromGLBuffer` | `0x1E90` | 57 | UnwindData |  |
+| 11 | `clCreateFromGLRenderbuffer` | `0x1F10` | 57 | UnwindData |  |
+| 12 | `clCreateFromGLTexture` | `0x1F90` | 61 | UnwindData |  |
+| 13 | `clCreateFromGLTexture2D` | `0x2020` | 61 | UnwindData |  |
+| 14 | `clCreateFromGLTexture3D` | `0x20B0` | 61 | UnwindData |  |
+| 15 | `clCreateImage` | `0x2140` | 61 | UnwindData |  |
+| 16 | `clCreateImage2D` | `0x21D0` | 64 | UnwindData |  |
+| 17 | `clCreateImage3D` | `0x2280` | 64 | UnwindData |  |
+| 18 | `clCreateImageWithProperties` | `0x2350` | 64 | UnwindData |  |
+| 19 | `clCreateKernel` | `0x23F0` | 118 | UnwindData |  |
+| 20 | `clCreateKernelsInProgram` | `0x2470` | 46 | UnwindData |  |
+| 21 | `clCreatePipe` | `0x24E0` | 61 | UnwindData |  |
+| 22 | `clCreateProgramWithBinary` | `0x2570` | 64 | UnwindData |  |
+| 23 | `clCreateProgramWithBuiltInKernels` | `0x2610` | 61 | UnwindData |  |
+| 24 | `clCreateProgramWithIL` | `0x26A0` | 57 | UnwindData |  |
+| 25 | `clCreateProgramWithSource` | `0x2720` | 61 | UnwindData |  |
+| 26 | `clCreateSampler` | `0x27B0` | 61 | UnwindData |  |
+| 27 | `clCreateSamplerWithProperties` | `0x2840` | 118 | UnwindData |  |
+| 28 | `clCreateSubBuffer` | `0x28C0` | 61 | UnwindData |  |
+| 29 | `clCreateSubDevices` | `0x2950` | 46 | UnwindData |  |
+| 30 | `clCreateUserEvent` | `0x2A50` | 96 | UnwindData |  |
+| 31 | `clEnqueueAcquireGLObjects` | `0x2CB0` | 46 | UnwindData |  |
+| 32 | `clEnqueueBarrier` | `0x2D30` | 66 | UnwindData |  |
+| 33 | `clEnqueueBarrierWithWaitList` | `0x2D80` | 46 | UnwindData |  |
+| 34 | `clEnqueueCopyBuffer` | `0x2DF0` | 46 | UnwindData |  |
+| 35 | `clEnqueueCopyBufferRect` | `0x2EA0` | 49 | UnwindData |  |
+| 36 | `clEnqueueCopyBufferToImage` | `0x2F90` | 46 | UnwindData |  |
+| 37 | `clEnqueueCopyImage` | `0x3040` | 46 | UnwindData |  |
+| 38 | `clEnqueueCopyImageToBuffer` | `0x30F0` | 46 | UnwindData |  |
+| 39 | `clEnqueueFillBuffer` | `0x31A0` | 46 | UnwindData |  |
+| 40 | `clEnqueueFillImage` | `0x3250` | 46 | UnwindData |  |
+| 41 | `clEnqueueMapBuffer` | `0x32F0` | 64 | UnwindData |  |
+| 42 | `clEnqueueMapImage` | `0x33C0` | 67 | UnwindData |  |
+| 43 | `clEnqueueMarker` | `0x34B0` | 86 | UnwindData |  |
+| 44 | `clEnqueueMarkerWithWaitList` | `0x3510` | 46 | UnwindData |  |
+| 45 | `clEnqueueMigrateMemObjects` | `0x3580` | 46 | UnwindData |  |
+| 46 | `clEnqueueNDRangeKernel` | `0x3610` | 46 | UnwindData |  |
+| 47 | `clEnqueueNativeKernel` | `0x36C0` | 46 | UnwindData |  |
+| 48 | `clEnqueueReadBuffer` | `0x3780` | 46 | UnwindData |  |
+| 49 | `clEnqueueReadBufferRect` | `0x3830` | 49 | UnwindData |  |
+| 50 | `clEnqueueReadImage` | `0x3930` | 49 | UnwindData |  |
+| 51 | `clEnqueueReleaseGLObjects` | `0x3C00` | 46 | UnwindData |  |
+| 52 | `clEnqueueSVMFree` | `0x3C80` | 46 | UnwindData |  |
+| 53 | `clEnqueueSVMMap` | `0x3D20` | 46 | UnwindData |  |
+| 54 | `clEnqueueSVMMemFill` | `0x3DC0` | 46 | UnwindData |  |
+| 55 | `clEnqueueSVMMemcpy` | `0x3E60` | 46 | UnwindData |  |
+| 56 | `clEnqueueSVMMigrateMem` | `0x3F00` | 46 | UnwindData |  |
+| 57 | `clEnqueueSVMUnmap` | `0x3FA0` | 46 | UnwindData |  |
+| 58 | `clEnqueueTask` | `0x4020` | 46 | UnwindData |  |
+| 59 | `clEnqueueUnmapMemObject` | `0x40A0` | 46 | UnwindData |  |
+| 60 | `clEnqueueWaitForEvents` | `0x4120` | 105 | UnwindData |  |
+| 61 | `clEnqueueWriteBuffer` | `0x4190` | 46 | UnwindData |  |
+| 62 | `clEnqueueWriteBufferRect` | `0x4240` | 49 | UnwindData |  |
+| 63 | `clEnqueueWriteImage` | `0x4340` | 49 | UnwindData |  |
+| 64 | `clFinish` | `0x4410` | 66 | UnwindData |  |
+| 65 | `clFlush` | `0x4460` | 66 | UnwindData |  |
+| 66 | `clGetCommandQueueInfo` | `0x44B0` | 46 | UnwindData |  |
+| 67 | `clGetContextInfo` | `0x4530` | 46 | UnwindData |  |
+| 68 | `clGetDeviceAndHostTimer` | `0x45B0` | 107 | UnwindData |  |
+| 69 | `clGetDeviceIDs` | `0x4620` | 51 | UnwindData |  |
+| 70 | `clGetDeviceInfo` | `0x4860` | 46 | UnwindData |  |
+| 71 | `clGetEventInfo` | `0x48E0` | 46 | UnwindData |  |
+| 72 | `clGetEventProfilingInfo` | `0x4960` | 46 | UnwindData |  |
+| 73 | `clGetExtensionFunctionAddress` | `0x49E0` | 22 | UnwindData |  |
+| 74 | `clGetExtensionFunctionAddressForPlatform` | `0x4FC0` | 1,346 | UnwindData |  |
+| 75 | `clGetGLObjectInfo` | `0x55E0` | 107 | UnwindData |  |
+| 76 | `clGetGLTextureInfo` | `0x5650` | 46 | UnwindData |  |
+| 77 | `clGetHostTimer` | `0x56D0` | 86 | UnwindData |  |
+| 78 | `clGetImageInfo` | `0x5730` | 46 | UnwindData |  |
+| 79 | `clGetKernelArgInfo` | `0x57B0` | 46 | UnwindData |  |
+| 80 | `clGetKernelInfo` | `0x5830` | 46 | UnwindData |  |
+| 81 | `clGetKernelSubGroupInfo` | `0x58B0` | 56 | UnwindData |  |
+| 82 | `clGetKernelWorkGroupInfo` | `0x5A00` | 46 | UnwindData |  |
+| 83 | `clGetMemObjectInfo` | `0x5A80` | 46 | UnwindData |  |
+| 84 | `clGetPipeInfo` | `0x5B00` | 46 | UnwindData |  |
+| 85 | `clGetPlatformIDs` | `0x5B80` | 216 | UnwindData |  |
+| 86 | `clGetPlatformInfo` | `0x5C60` | 51 | UnwindData |  |
+| 87 | `clGetProgramBuildInfo` | `0x5CE0` | 46 | UnwindData |  |
+| 88 | `clGetProgramInfo` | `0x5D60` | 46 | UnwindData |  |
+| 89 | `clGetSamplerInfo` | `0x5DE0` | 46 | UnwindData |  |
+| 90 | `clGetSupportedImageFormats` | `0x5E60` | 46 | UnwindData |  |
+| 91 | `clLinkProgram` | `0x5EE0` | 64 | UnwindData |  |
+| 92 | `clReleaseCommandQueue` | `0x5FA0` | 63 | UnwindData |  |
+| 93 | `clReleaseContext` | `0x5FE0` | 63 | UnwindData |  |
+| 94 | `clReleaseDevice` | `0x6020` | 66 | UnwindData |  |
+| 95 | `clReleaseEvent` | `0x60C0` | 66 | UnwindData |  |
+| 96 | `clReleaseKernel` | `0x6110` | 66 | UnwindData |  |
+| 97 | `clReleaseMemObject` | `0x6160` | 66 | UnwindData |  |
+| 98 | `clReleaseProgram` | `0x61B0` | 66 | UnwindData |  |
+| 99 | `clReleaseSampler` | `0x6200` | 66 | UnwindData |  |
+| 100 | `clRetainCommandQueue` | `0x6250` | 63 | UnwindData |  |
+| 101 | `clRetainContext` | `0x6290` | 63 | UnwindData |  |
+| 102 | `clRetainDevice` | `0x62D0` | 66 | UnwindData |  |
+| 103 | `clRetainEvent` | `0x6370` | 66 | UnwindData |  |
+| 104 | `clRetainKernel` | `0x63C0` | 66 | UnwindData |  |
+| 105 | `clRetainMemObject` | `0x6410` | 66 | UnwindData |  |
+| 106 | `clRetainProgram` | `0x6460` | 66 | UnwindData |  |
+| 107 | `clRetainSampler` | `0x64B0` | 66 | UnwindData |  |
+| 108 | `clSVMAlloc` | `0x6500` | 45 | UnwindData |  |
+| 109 | `clSVMFree` | `0x6570` | 29 | UnwindData |  |
+| 110 | `clSetCommandQueueProperty` | `0x65C0` | 46 | UnwindData |  |
+| 111 | `clSetContextDestructorCallback` | `0x6630` | 107 | UnwindData |  |
+| 112 | `clSetDefaultDeviceCommandQueue` | `0x66A0` | 131 | UnwindData |  |
+| 113 | `clSetEventCallback` | `0x6730` | 46 | UnwindData |  |
+| 114 | `clSetKernelArg` | `0x67A0` | 46 | UnwindData |  |
+| 115 | `clSetKernelArgSVMPointer` | `0x6810` | 105 | UnwindData |  |
+| 116 | `clSetKernelExecInfo` | `0x6880` | 46 | UnwindData |  |
+| 117 | `clSetMemObjectDestructorCallback` | `0x68F0` | 107 | UnwindData |  |
+| 118 | `clSetProgramReleaseCallback` | `0x6960` | 107 | UnwindData |  |
+| 119 | `clSetProgramSpecializationConstant` | `0x69D0` | 46 | UnwindData |  |
+| 120 | `clSetUserEventStatus` | `0x6A40` | 84 | UnwindData |  |
+| 121 | `clUnloadCompiler` | `0x6AA0` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 122 | `clUnloadPlatformCompiler` | `0x6AB0` | 71 | UnwindData |  |
+| 123 | `clWaitForEvents` | `0x6B00` | 51 | UnwindData |  |

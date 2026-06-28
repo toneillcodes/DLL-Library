@@ -1,0 +1,93 @@
+# Directory Inventory: `/Windows/System32/DriverStore/FileRepository/nvlt.inf_amd64_18cae871934f9f98`
+
+[⬅ Back to Root System Index](../../../../../README.md)
+
+### Binary Inventory Table of Contents
+
+| Binary Name | Architecture | Exports Count | SHA256 (Short) | Details Link |
+| :--- | :---: | :---: | :---: | :--- |
+| **_nvngx.dll** | x64 | 67 | `241ebb5011` | [View Specification](./_nvngx.dll_241ebb50.md) |
+| **cudnn_infer64_7.dll** | x64 | 71 | `a07edbeeb2` | [View Specification](./cudnn_infer64_7.dll_a07edbee.md) |
+| **DisplayDriverExt.dll** | x86 | 5 | `4d638df571` | [View Specification](./DisplayDriverExt.dll_4d638df5.md) |
+| **flxconnect64.dll** | x64 | 4 | `fa282506aa` | [View Specification](./flxconnect64.dll_fa282506.md) |
+| **flxcore64.dll** | x64 | 2 | `d76bd376ab` | [View Specification](./flxcore64.dll_d76bd376.md) |
+| **nv3dappshext.dll** | x64 | 5 | `e86216c96a` | [View Specification](./nv3dappshext.dll_e86216c9.md) |
+| **nvapi.dll** | x86 | 2 | `6ebacb300b` | [View Specification](./nvapi.dll_6ebacb30.md) |
+| **nvapi64.dll** | x64 | 2 | `0b9cf486ac` | [View Specification](./nvapi64.dll_0b9cf486.md) |
+| **NvCCX.dll** | x64 | 1 | `adcbcc3fd2` | [View Specification](./NvCCX.dll_adcbcc3f.md) |
+| **nvcpl.dll** | x64 | 376 | `3020f93f88` | [View Specification](./nvcpl.dll_3020f93f.md) |
+| **nvcuda32.dll** | x86 | 644 | `a697c28d67` | [View Specification](./nvcuda32.dll_a697c28d.md) |
+| **nvcuda64.dll** | x64 | 644 | `0385c2b4e2` | [View Specification](./nvcuda64.dll_0385c2b4.md) |
+| **nvcuda_loader32.dll** | x86 | 650 | `cd7196556c` | [View Specification](./nvcuda_loader32.dll_cd719655.md) |
+| **nvcuda_loader64.dll** | x64 | 650 | `de83d72a60` | [View Specification](./nvcuda_loader64.dll_de83d72a.md) |
+| **nvcudadebugger.dll** | x64 | 1 | `fe75c0fe63` | [View Specification](./nvcudadebugger.dll_fe75c0fe.md) |
+| **nvcuvid32.dll** | x86 | 39 | `413f0e6b49` | [View Specification](./nvcuvid32.dll_413f0e6b.md) |
+| **nvcuvid64.dll** | x64 | 39 | `43d84281e1` | [View Specification](./nvcuvid64.dll_43d84281.md) |
+| **nvd3dum.dll** | x86 | 2 | `96c9283636` | [View Specification](./nvd3dum.dll_96c92836.md) |
+| **nvd3dumx.dll** | x64 | 2 | `31a32c4227` | [View Specification](./nvd3dumx.dll_31a32c42.md) |
+| **nvDecMFTMjpeg.dll** | x86 | 4 | `79e740e926` | [View Specification](./nvDecMFTMjpeg.dll_79e740e9.md) |
+| **nvDecMFTMjpegx.dll** | x64 | 4 | `c7ae361021` | [View Specification](./nvDecMFTMjpegx.dll_c7ae3610.md) |
+| **nvdevtools.dll** | x64 | 4 | `e79b7660df` | [View Specification](./nvdevtools.dll_e79b7660.md) |
+| **nvdisps.dll** | x64 | 4 | `6c118e5622` | [View Specification](./nvdisps.dll_6c118e56.md) |
+| **nvdlist.dll** | x86 | 3 | `2421057d69` | [View Specification](./nvdlist.dll_2421057d.md) |
+| **nvdlistx.dll** | x64 | 3 | `2a782f9d7b` | [View Specification](./nvdlistx.dll_2a782f9d.md) |
+| **nvdlppx.dll** | x64 | 2 | `e29dcf1d8d` | [View Specification](./nvdlppx.dll_e29dcf1d.md) |
+| **nvdxdlkernels.dll** | x64 | 1 | `36f569839a` | [View Specification](./nvdxdlkernels.dll_36f56983.md) |
+| **nvEncMFTH264.dll** | x86 | 4 | `6497d5460b` | [View Specification](./nvEncMFTH264.dll_6497d546.md) |
+| **nvEncMFTH264x.dll** | x64 | 4 | `f672ec658a` | [View Specification](./nvEncMFTH264x.dll_f672ec65.md) |
+| **nvEncMFThevc.dll** | x86 | 4 | `569e83e7bc` | [View Specification](./nvEncMFThevc.dll_569e83e7.md) |
+| **nvEncMFThevcx.dll** | x64 | 4 | `42ace84aa9` | [View Specification](./nvEncMFThevcx.dll_42ace84a.md) |
+| **nvEncodeAPI.dll** | x86 | 10 | `9cc2abcca0` | [View Specification](./nvEncodeAPI.dll_9cc2abcc.md) |
+| **nvEncodeAPI64.dll** | x64 | 10 | `8aa48d16bb` | [View Specification](./nvEncodeAPI64.dll_8aa48d16.md) |
+| **NvFBC.dll** | x86 | 9 | `d2b9496013` | [View Specification](./NvFBC.dll_d2b94960.md) |
+| **NvFBC64.dll** | x64 | 9 | `ad405a8c78` | [View Specification](./NvFBC64.dll_ad405a8c.md) |
+| **nvgames.dll** | x64 | 4 | `1733bc58d1` | [View Specification](./nvgames.dll_1733bc58.md) |
+| **nvgpucomp32.dll** | x86 | 3 | `323df3d99d` | [View Specification](./nvgpucomp32.dll_323df3d9.md) |
+| **nvgpucomp64.dll** | x64 | 3 | `f14f762b06` | [View Specification](./nvgpucomp64.dll_f14f762b.md) |
+| **NVI2.dll** | x86 | 12 | `1de9a1e85b` | [View Specification](./NVI2.dll_1de9a1e8.md) |
+| **NVI2UI.dll** | x86 | 5 | `9d3af5c27e` | [View Specification](./NVI2UI.dll_9d3af5c2.md) |
+| **NvIFR.dll** | x86 | 12 | `832f92690d` | [View Specification](./NvIFR.dll_832f9269.md) |
+| **NvIFR64.dll** | x64 | 12 | `ceef677e38` | [View Specification](./NvIFR64.dll_ceef677e.md) |
+| **NvInstallerUtil.dll** | x86 | 29 | `d2ff450bc1` | [View Specification](./NvInstallerUtil.dll_d2ff450b.md) |
+| **nvldumd.dll** | x86 | 9 | `40ad067100` | [View Specification](./nvldumd.dll_40ad0671.md) |
+| **nvldumdx.dll** | x64 | 9 | `4926bd8be3` | [View Specification](./nvldumdx.dll_4926bd8b.md) |
+| **nvlicensings.dll** | x64 | 4 | `170a3c650b` | [View Specification](./nvlicensings.dll_170a3c65.md) |
+| **nvml.dll** | x64 | 332 | `1f943b7f0a` | [View Specification](./nvml.dll_1f943b7f.md) |
+| **nvml_loader.dll** | x64 | 332 | `bf0a0840e2` | [View Specification](./nvml_loader.dll_bf0a0840.md) |
+| **nvngx.dll** | x64 | 59 | `34903332f5` | [View Specification](./nvngx.dll_34903332.md) |
+| **nvofapi.dll** | x86 | 4 | `ce8fda13b5` | [View Specification](./nvofapi.dll_ce8fda13.md) |
+| **nvofapi64.dll** | x64 | 5 | `4fc94158fd` | [View Specification](./nvofapi64.dll_4fc94158.md) |
+| **nvoglv32.dll** | x86 | 32 | `3d4f75e137` | [View Specification](./nvoglv32.dll_3d4f75e1.md) |
+| **nvoglv64.dll** | x64 | 32 | `5b723e66f1` | [View Specification](./nvoglv64.dll_5b723e66.md) |
+| **nvopencl32.dll** | x86 | 3 | `1b14893f3d` | [View Specification](./nvopencl32.dll_1b14893f.md) |
+| **nvopencl64.dll** | x64 | 3 | `9ce72a831f` | [View Specification](./nvopencl64.dll_9ce72a83.md) |
+| **nvoptix.dll** | x64 | 3 | `e8bf12608a` | [View Specification](./nvoptix.dll_e8bf1260.md) |
+| **nvppe.dll** | x86 | 2 | `2e86500715` | [View Specification](./nvppe.dll_2e865007.md) |
+| **nvppex.dll** | x64 | 2 | `2d5c39da56` | [View Specification](./nvppex.dll_2d5c39da.md) |
+| **NVPrxy32.dll** | x86 | 1 | `90a25362d4` | [View Specification](./NVPrxy32.dll_90a25362.md) |
+| **NVPrxy64.dll** | x64 | 1 | `3a3f92f86c` | [View Specification](./NVPrxy64.dll_3a3f92f8.md) |
+| **nvptxJitCompiler32.dll** | x86 | 22 | `c6adf0cb42` | [View Specification](./nvptxJitCompiler32.dll_c6adf0cb.md) |
+| **nvptxJitCompiler64.dll** | x64 | 22 | `dffd0186e1` | [View Specification](./nvptxJitCompiler64.dll_dffd0186.md) |
+| **nvrtum64.dll** | x64 | 2 | `8054d94233` | [View Specification](./nvrtum64.dll_8054d942.md) |
+| **nvshext.dll** | x64 | 4 | `e565691839` | [View Specification](./nvshext.dll_e5656918.md) |
+| **nvsmartmax.dll** | x86 | 17 | `73f767ff4c` | [View Specification](./nvsmartmax.dll_73f767ff.md) |
+| **nvsmartmax64.dll** | x64 | 17 | `032d28d243` | [View Specification](./nvsmartmax64.dll_032d28d2.md) |
+| **nvsvc64.dll** | x64 | 6 | `a8fb90582d` | [View Specification](./nvsvc64.dll_a8fb9058.md) |
+| **nvsvs.dll** | x64 | 4 | `1850a83d97` | [View Specification](./nvsvs.dll_1850a83d.md) |
+| **NvTelemetry64.dll** | x64 | 15 | `180f95eba5` | [View Specification](./NvTelemetry64.dll_180f95eb.md) |
+| **nvui.dll** | x64 | 83 | `ecda72b90f` | [View Specification](./nvui.dll_ecda72b9.md) |
+| **nvvgpu64.dll** | x64 | 2 | `1e4c9cc1da` | [View Specification](./nvvgpu64.dll_1e4c9cc1.md) |
+| **nvvgpuconfig.dll** | x64 | 1 | `2cb2f3f43b` | [View Specification](./nvvgpuconfig.dll_2cb2f3f4.md) |
+| **nvvitvs.dll** | x64 | 4 | `2f05001092` | [View Specification](./nvvitvs.dll_2f050010.md) |
+| **nvvm32.dll** | x86 | 24 | `6c5300f7f2` | [View Specification](./nvvm32.dll_6c5300f7.md) |
+| **nvvm64.dll** | x64 | 24 | `75a758bed6` | [View Specification](./nvvm64.dll_75a758be.md) |
+| **nvwgf2um.dll** | x86 | 7 | `bb7613dd87` | [View Specification](./nvwgf2um.dll_bb7613dd.md) |
+| **nvwgf2umx.dll** | x64 | 7 | `7936748771` | [View Specification](./nvwgf2umx.dll_79367487.md) |
+| **nvwss.dll** | x64 | 4 | `a8f1c334c1` | [View Specification](./nvwss.dll_a8f1c334.md) |
+| **nvxdapix.dll** | x64 | 5 | `583d5d0f0d` | [View Specification](./nvxdapix.dll_583d5d0f.md) |
+| **nvxdbat.dll** | x64 | 5 | `46e067c9ba` | [View Specification](./nvxdbat.dll_46e067c9.md) |
+| **nvxdplcy.dll** | x64 | 5 | `76005aa090` | [View Specification](./nvxdplcy.dll_76005aa0.md) |
+| **OpenCL32.dll** | x86 | 123 | `bd8dafacbe` | [View Specification](./OpenCL32.dll_bd8dafac.md) |
+| **OpenCL64.dll** | x64 | 123 | `41d8fc5b4f` | [View Specification](./OpenCL64.dll_41d8fc5b.md) |
+| **vulkan-1-x64.dll** | x64 | 246 | `05611de869` | [View Specification](./vulkan-1-x64.dll_05611de8.md) |
+| **vulkan-1-x86.dll** | x86 | 246 | `c9f239c3d5` | [View Specification](./vulkan-1-x86.dll_c9f239c3.md) |

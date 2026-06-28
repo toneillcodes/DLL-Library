@@ -1,0 +1,126 @@
+# Binary Specification: libEGL.dll
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\Microsoft-Edge-WebView\libEGL.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `5d3bd0cb4fb7159b33246a36d56c5de689a702cac6b4e33782032cd870875e2e`
+* **Total Exported Functions:** 115
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 4 | `eglChooseConfig` | `0x1000` | 61 | UnwindData |  |
+| 7 | `eglCopyBuffers` | `0x1120` | 51 | UnwindData |  |
+| 9 | `eglCreateContext` | `0x1160` | 61 | UnwindData |  |
+| 15 | `eglCreatePbufferSurface` | `0x11A0` | 51 | UnwindData |  |
+| 16 | `eglCreatePixmapSurface` | `0x11E0` | 61 | UnwindData |  |
+| 25 | `eglCreateWindowSurface` | `0x1220` | 61 | UnwindData |  |
+| 27 | `eglDestroyContext` | `0x1260` | 43 | UnwindData |  |
+| 31 | `eglDestroySurface` | `0x1290` | 43 | UnwindData |  |
+| 39 | `eglGetConfigAttrib` | `0x12C0` | 61 | UnwindData |  |
+| 40 | `eglGetConfigs` | `0x1300` | 61 | UnwindData |  |
+| 42 | `eglGetCurrentDisplay` | `0x1340` | 27 | UnwindData |  |
+| 43 | `eglGetCurrentSurface` | `0x1360` | 33 | UnwindData |  |
+| 44 | `eglGetDisplay` | `0x1390` | 35 | UnwindData |  |
+| 45 | `eglGetError` | `0x13C0` | 27 | UnwindData |  |
+| 53 | `eglGetProcAddress` | `0x13E0` | 35 | UnwindData |  |
+| 58 | `eglInitialize` | `0x1410` | 51 | UnwindData |  |
+| 62 | `eglMakeCurrent` | `0x1450` | 61 | UnwindData |  |
+| 71 | `eglQueryContext` | `0x1490` | 61 | UnwindData |  |
+| 81 | `eglQueryString` | `0x14D0` | 41 | UnwindData |  |
+| 84 | `eglQuerySurface` | `0x1500` | 61 | UnwindData |  |
+| 104 | `eglSwapBuffers` | `0x1540` | 43 | UnwindData |  |
+| 107 | `eglTerminate` | `0x1570` | 35 | UnwindData |  |
+| 111 | `eglWaitGL` | `0x15A0` | 27 | UnwindData |  |
+| 112 | `eglWaitNative` | `0x15C0` | 33 | UnwindData |  |
+| 3 | `eglBindTexImage` | `0x15F0` | 51 | UnwindData |  |
+| 91 | `eglReleaseTexImage` | `0x1630` | 51 | UnwindData |  |
+| 103 | `eglSurfaceAttrib` | `0x1670` | 61 | UnwindData |  |
+| 106 | `eglSwapInterval` | `0x16B0` | 41 | UnwindData |  |
+| 2 | `eglBindAPI` | `0x16E0` | 33 | UnwindData |  |
+| 14 | `eglCreatePbufferFromClientBuffer` | `0x1710` | 59 | UnwindData |  |
+| 70 | `eglQueryAPI` | `0x1750` | 27 | UnwindData |  |
+| 92 | `eglReleaseThread` | `0x1770` | 27 | UnwindData |  |
+| 110 | `eglWaitClient` | `0x1790` | 27 | UnwindData |  |
+| 41 | `eglGetCurrentContext` | `0x17B0` | 27 | UnwindData |  |
+| 5 | `eglClientWaitSync` | `0x17D0` | 61 | UnwindData |  |
+| 11 | `eglCreateImage` | `0x1810` | 61 | UnwindData |  |
+| 17 | `eglCreatePlatformPixmapSurface` | `0x1850` | 61 | UnwindData |  |
+| 19 | `eglCreatePlatformWindowSurface` | `0x1890` | 61 | UnwindData |  |
+| 23 | `eglCreateSync` | `0x18D0` | 49 | UnwindData |  |
+| 28 | `eglDestroyImage` | `0x1910` | 43 | UnwindData |  |
+| 32 | `eglDestroySync` | `0x1940` | 43 | UnwindData |  |
+| 51 | `eglGetPlatformDisplay` | `0x1970` | 49 | UnwindData |  |
+| 54 | `eglGetSyncAttrib` | `0x19B0` | 61 | UnwindData |  |
+| 113 | `eglWaitSync` | `0x19F0` | 51 | UnwindData |  |
+| 93 | `eglSetBlobCacheFuncsANDROID` | `0x1A30` | 51 | UnwindData |  |
+| 13 | `eglCreateNativeClientBufferANDROID` | `0x1A70` | 35 | UnwindData |  |
+| 38 | `eglGetCompositorTimingSupportedANDROID` | `0x1AA0` | 51 | UnwindData |  |
+| 37 | `eglGetCompositorTimingANDROID` | `0x1AE0` | 61 | UnwindData |  |
+| 50 | `eglGetNextFrameIdANDROID` | `0x1B20` | 51 | UnwindData |  |
+| 46 | `eglGetFrameTimestampSupportedANDROID` | `0x1B60` | 51 | UnwindData |  |
+| 47 | `eglGetFrameTimestampsANDROID` | `0x1BA0` | 61 | UnwindData |  |
+| 49 | `eglGetNativeClientBufferANDROID` | `0x1BE0` | 35 | UnwindData |  |
+| 34 | `eglDupNativeFenceFDANDROID` | `0x1C10` | 43 | UnwindData |  |
+| 65 | `eglPresentationTimeANDROID` | `0x1C40` | 51 | UnwindData |  |
+| 10 | `eglCreateDeviceANGLE` | `0x1C80` | 49 | UnwindData |  |
+| 88 | `eglReleaseDeviceANGLE` | `0x1CC0` | 35 | UnwindData |  |
+| 61 | `eglLockVulkanQueueANGLE` | `0x1CF0` | 35 | UnwindData |  |
+| 109 | `eglUnlockVulkanQueueANGLE` | `0x1D20` | 35 | UnwindData |  |
+| 1 | `eglAcquireExternalContextANGLE` | `0x1D50` | 43 | UnwindData |  |
+| 89 | `eglReleaseExternalContextANGLE` | `0x1D80` | 35 | UnwindData |  |
+| 82 | `eglQueryStringiANGLE` | `0x1DB0` | 49 | UnwindData |  |
+| 75 | `eglQueryDisplayAttribANGLE` | `0x1DF0` | 49 | UnwindData |  |
+| 8 | `eglCopyMetalSharedEventANGLE` | `0x1E30` | 43 | UnwindData |  |
+| 95 | `eglSetValidationEnabledANGLE` | `0x1E60` | 33 | UnwindData |  |
+| 90 | `eglReleaseHighPowerGPUANGLE` | `0x1E90` | 43 | UnwindData |  |
+| 87 | `eglReacquireHighPowerGPUANGLE` | `0x1EC0` | 43 | UnwindData |  |
+| 57 | `eglHandleGPUSwitchANGLE` | `0x1EF0` | 35 | UnwindData |  |
+| 36 | `eglForceGPUSwitchANGLE` | `0x1F20` | 49 | UnwindData |  |
+| 64 | `eglPrepareSwapBuffersANGLE` | `0x1F60` | 43 | UnwindData |  |
+| 66 | `eglProgramCacheGetAttribANGLE` | `0x1F90` | 41 | UnwindData |  |
+| 68 | `eglProgramCacheQueryANGLE` | `0x1FC0` | 59 | UnwindData |  |
+| 67 | `eglProgramCachePopulateANGLE` | `0x2000` | 61 | UnwindData |  |
+| 69 | `eglProgramCacheResizeANGLE` | `0x2040` | 49 | UnwindData |  |
+| 86 | `eglQuerySurfacePointerANGLE` | `0x2080` | 61 | UnwindData |  |
+| 22 | `eglCreateStreamProducerD3DTextureANGLE` | `0x20C0` | 51 | UnwindData |  |
+| 102 | `eglStreamPostD3DTextureANGLE` | `0x2100` | 61 | UnwindData |  |
+| 48 | `eglGetMscRateANGLE` | `0x2140` | 61 | UnwindData |  |
+| 35 | `eglExportVkImageANGLE` | `0x2180` | 61 | UnwindData |  |
+| 115 | `eglWaitUntilWorkScheduledANGLE` | `0x21C0` | 35 | UnwindData |  |
+| 56 | `eglGetSyncValuesCHROMIUM` | `0x21F0` | 61 | UnwindData |  |
+| 73 | `eglQueryDeviceAttribEXT` | `0x2230` | 49 | UnwindData |  |
+| 74 | `eglQueryDeviceStringEXT` | `0x2270` | 41 | UnwindData |  |
+| 76 | `eglQueryDisplayAttribEXT` | `0x22A0` | 49 | UnwindData |  |
+| 77 | `eglQueryDmaBufFormatsEXT` | `0x22E0` | 59 | UnwindData |  |
+| 78 | `eglQueryDmaBufModifiersEXT` | `0x2320` | 59 | UnwindData |  |
+| 18 | `eglCreatePlatformPixmapSurfaceEXT` | `0x2360` | 61 | UnwindData |  |
+| 20 | `eglCreatePlatformWindowSurfaceEXT` | `0x23A0` | 61 | UnwindData |  |
+| 52 | `eglGetPlatformDisplayEXT` | `0x23E0` | 49 | UnwindData |  |
+| 83 | `eglQuerySupportedCompressionRatesEXT` | `0x2420` | 61 | UnwindData |  |
+| 26 | `eglDebugMessageControlKHR` | `0x2460` | 43 | UnwindData |  |
+| 59 | `eglLabelObjectKHR` | `0x2490` | 59 | UnwindData |  |
+| 72 | `eglQueryDebugKHR` | `0x24D0` | 41 | UnwindData |  |
+| 6 | `eglClientWaitSyncKHR` | `0x2500` | 61 | UnwindData |  |
+| 24 | `eglCreateSyncKHR` | `0x2540` | 49 | UnwindData |  |
+| 33 | `eglDestroySyncKHR` | `0x2580` | 43 | UnwindData |  |
+| 55 | `eglGetSyncAttribKHR` | `0x25B0` | 61 | UnwindData |  |
+| 12 | `eglCreateImageKHR` | `0x25F0` | 61 | UnwindData |  |
+| 29 | `eglDestroyImageKHR` | `0x2630` | 43 | UnwindData |  |
+| 60 | `eglLockSurfaceKHR` | `0x2660` | 51 | UnwindData |  |
+| 85 | `eglQuerySurface64KHR` | `0x26A0` | 61 | UnwindData |  |
+| 108 | `eglUnlockSurfaceKHR` | `0x26E0` | 43 | UnwindData |  |
+| 94 | `eglSetDamageRegionKHR` | `0x2710` | 61 | UnwindData |  |
+| 96 | `eglSignalSyncKHR` | `0x2750` | 51 | UnwindData |  |
+| 21 | `eglCreateStreamKHR` | `0x2790` | 43 | UnwindData |  |
+| 30 | `eglDestroyStreamKHR` | `0x27C0` | 43 | UnwindData |  |
+| 79 | `eglQueryStreamKHR` | `0x27F0` | 61 | UnwindData |  |
+| 80 | `eglQueryStreamu64KHR` | `0x2830` | 61 | UnwindData |  |
+| 97 | `eglStreamAttribKHR` | `0x2870` | 61 | UnwindData |  |
+| 98 | `eglStreamConsumerAcquireKHR` | `0x28B0` | 43 | UnwindData |  |
+| 100 | `eglStreamConsumerGLTextureExternalKHR` | `0x28E0` | 43 | UnwindData |  |
+| 101 | `eglStreamConsumerReleaseKHR` | `0x2910` | 43 | UnwindData |  |
+| 105 | `eglSwapBuffersWithDamageKHR` | `0x2940` | 61 | UnwindData |  |
+| 114 | `eglWaitSyncKHR` | `0x2980` | 51 | UnwindData |  |
+| 63 | `eglPostSubBufferNV` | `0x29C0` | 61 | UnwindData |  |
+| 99 | `eglStreamConsumerGLTextureExternalAttribsNV` | `0x2A00` | 51 | UnwindData |  |

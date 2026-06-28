@@ -1,0 +1,150 @@
+# Binary Specification: powrprof.dll
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\powrprof.dll`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `096b3c77ad7fece122be0362c72530b1edc024fe7107d1d40d8bcd8fa5428a0e`
+* **Total Exported Functions:** 139
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 127 | `PowerWriteValueIncrement` | `0x1440` | 181 | UnwindData |  |
+| 125 | `PowerWriteSecurityDescriptor` | `0x1500` | 248 | UnwindData |  |
+| 100 | `PowerSetUserAwayPrediction` | `0x1600` | 368 | UnwindData |  |
+| 75 | `PowerReadValueIncrement` | `0x1780` | 234 | UnwindData |  |
+| 77 | `PowerReadValueMin` | `0x1870` | 234 | UnwindData |  |
+| 25 | `PowerClearUserAwayPrediction` | `0x1960` | 98 | UnwindData |  |
+| 23 | `PowerCanRestoreIndividualDefaultPowerScheme` | `0x19D0` | 270 | UnwindData |  |
+| 126 | `PowerWriteSettingAttributes` | `0x1AF0` | 188 | UnwindData |  |
+| 10 | `GUIDFormatToPowerPolicy` | `0x1BC0` | 1,388 | UnwindData |  |
+| 123 | `PowerWritePossibleFriendlyName` | `0x2200` | 196 | UnwindData |  |
+| 76 | `PowerReadValueMax` | `0x22D0` | 234 | UnwindData |  |
+| 9 | `GUIDFormatToGlobalPowerPolicy` | `0x23C0` | 1,260 | UnwindData |  |
+| 16 | `IsPwrHibernateAllowed` | `0x28C0` | 93 | UnwindData |  |
+| 22 | `PowerApplySettingChanges` | `0x2930` | 116 | UnwindData |  |
+| 103 | `PowerSettingAccessCheck` | `0x29B0` | 148 | UnwindData |  |
+| 58 | `PowerReadACDefaultIndex` | `0x2A50` | 241 | UnwindData |  |
+| 97 | `PowerSetActiveScheme` | `0x2B50` | 100 | UnwindData |  |
+| 59 | `PowerReadACValue` | `0x2BC0` | 184 | UnwindData |  |
+| 104 | `PowerSettingAccessCheckEx` | `0x2C80` | 163 | UnwindData |  |
+| 62 | `PowerReadDCDefaultIndex` | `0x2D80` | 241 | UnwindData |  |
+| 54 | `PowerIsSettingRangeDefined` | `0x2E80` | 554 | UnwindData |  |
+| 63 | `PowerReadDCValue` | `0x30B0` | 197 | UnwindData |  |
+| 74 | `PowerReadSettingAttributes` | `0x3180` | 494 | UnwindData |  |
+| 118 | `PowerWriteDCValueIndex` | `0x3380` | 219 | UnwindData |  |
+| 115 | `PowerWriteACValueIndex` | `0x3470` | 216 | UnwindData |  |
+| 13 | `GetPwrCapabilities` | `0x36F0` | 270 | UnwindData |  |
+| 12 | `GetCurrentPowerPolicies` | `0x3970` | 251 | UnwindData |  |
+| 1 | `CallNtPowerInformation` | `0x3AF0` | 1,386 | UnwindData |  |
+| 43 | `PowerGetActiveScheme` | `0x4060` | 353 | UnwindData |  |
+| 135 | `SetSuspendState` | `0x4480` | 222 | UnwindData |  |
+| 91 | `PowerRestoreACProfileIndex` | `0x4570` | 110 | UnwindData |  |
+| 37 | `PowerDeleteScheme` | `0x45F0` | 110 | UnwindData |  |
+| 44 | `PowerGetActualOverlayScheme` | `0x4670` | 177 | UnwindData |  |
+| 120 | `PowerWriteFriendlyName` | `0x4730` | 130 | UnwindData |  |
+| 53 | `PowerInformationWithPrivileges` | `0x4D40` | 480 | UnwindData |  |
+| 78 | `PowerReadValueUnitsSpecifier` | `0x4F30` | 61 | UnwindData |  |
+| 70 | `PowerReadPossibleFriendlyName` | `0x4F80` | 69 | UnwindData |  |
+| 66 | `PowerReadDescription` | `0x4FD0` | 73 | UnwindData |  |
+| 67 | `PowerReadFriendlyName` | `0x5020` | 73 | UnwindData |  |
+| 41 | `PowerEnumerate` | `0x5980` | 321 | UnwindData |  |
+| 65 | `PowerReadDCValueIndexEx` | `0x5C20` | 51 | UnwindData |  |
+| 64 | `PowerReadDCValueIndex` | `0x5C60` | 55 | UnwindData |  |
+| 61 | `PowerReadACValueIndexEx` | `0x5CA0` | 52 | UnwindData |  |
+| 60 | `PowerReadACValueIndex` | `0x5CE0` | 56 | UnwindData |  |
+| 105 | `PowerSettingRegisterNotification` | `0x60C0` | 31 | UnwindData |  |
+| 106 | `PowerSettingRegisterNotificationEx` | `0x60F0` | 1,413 | UnwindData |  |
+| 107 | `PowerSettingUnregisterNotification` | `0x69B0` | 63 | UnwindData |  |
+| 39 | `PowerDeterminePlatformRoleEx` | `0x6CB0` | 88 | UnwindData |  |
+| 38 | `PowerDeterminePlatformRole` | `0x6D10` | 78 | UnwindData |  |
+| 85 | `PowerRegisterSuspendResumeNotification` | `0x6DC0` | 394 | UnwindData |  |
+| 109 | `PowerUnregisterSuspendResumeNotification` | `0x6FF0` | 39 | UnwindData |  |
+| 83 | `PowerRegisterLimitsMitigation` | `0x7140` | 613 | UnwindData |  |
+| 81 | `PowerRegisterEnvironmentalMonitor` | `0x7470` | 528 | UnwindData |  |
+| 110 | `PowerUpdateEnvironmentalMonitorState` | `0x7750` | 50 | UnwindData |  |
+| 111 | `PowerUpdateEnvironmentalMonitorThresholds` | `0x7830` | 196 | UnwindData |  |
+| 26 | `PowerCloseEnvironmentalMonitor` | `0x7B30` | 384 | UnwindData |  |
+| 8 | `EnumPwrSchemes` | `0x7D80` | 1,643 | UnwindData |  |
+| 31 | `PowerDebugDifPowerPolicies` | `0x8A60` | 2,228 | UnwindData |  |
+| 112 | `PowerUpdateLimitsMitigation` | `0x9320` | 271 | UnwindData |  |
+| 99 | `PowerSetBrightnessAndTransitionTimes` | `0x9440` | 29 | UnwindData |  |
+| 47 | `PowerGetOverlaySchemes` | `0x9510` | 289 | UnwindData |  |
+| 82 | `PowerRegisterForEffectivePowerModeNotifications` | `0x9860` | 464 | UnwindData |  |
+| 108 | `PowerUnregisterFromEffectivePowerModeNotifications` | `0x9A40` | 161 | UnwindData |  |
+| 2 | `CanUserWritePwrScheme` | `0xB2B0` | 164 | UnwindData |  |
+| 3 | `DeletePwrScheme` | `0xB360` | 347 | UnwindData |  |
+| 11 | `GetActivePwrScheme` | `0xB590` | 179 | UnwindData |  |
+| 14 | `GetPwrDiskSpindownRange` | `0xB650` | 86 | UnwindData |  |
+| 15 | `IsAdminOverrideActive` | `0xB6B0` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 17 | `IsPwrShutdownAllowed` | `0xB6C0` | 86 | UnwindData |  |
+| 18 | `IsPwrSuspendAllowed` | `0xB720` | 103 | UnwindData |  |
+| 19 | `LoadCurrentPwrScheme` | `0xB790` | 1,600 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 20 | `MergeLegacyPwrScheme` | `0xB790` | 1,600 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 131 | `ReadGlobalPwrPolicy` | `0xBDD0` | 269 | UnwindData |  |
+| 132 | `ReadProcessorPwrScheme` | `0xBEF0` | 29 | UnwindData |  |
+| 138 | `WriteProcessorPwrScheme` | `0xBEF0` | 29 | UnwindData |  |
+| 133 | `ReadPwrScheme` | `0xC080` | 246 | UnwindData |  |
+| 134 | `SetActivePwrScheme` | `0xC300` | 726 | UnwindData |  |
+| 136 | `ValidatePowerPolicies` | `0xC710` | 337 | UnwindData |  |
+| 137 | `WriteGlobalPwrPolicy` | `0xC870` | 179 | UnwindData |  |
+| 139 | `WritePwrScheme` | `0xCC00` | 236 | UnwindData |  |
+| 32 | `PowerDebugDifSystemPowerPolicies` | `0xCE30` | 1,752 | UnwindData |  |
+| 33 | `PowerDebugDumpPowerPolicy` | `0xD510` | 990 | UnwindData |  |
+| 34 | `PowerDebugDumpPowerScheme` | `0xD900` | 2,903 | UnwindData |  |
+| 35 | `PowerDebugDumpSystemPowerCapabilities` | `0xE460` | 617 | UnwindData |  |
+| 36 | `PowerDebugDumpSystemPowerPolicy` | `0xE6D0` | 741 | UnwindData |  |
+| 4 | `DevicePowerClose` | `0xED00` | 64 | UnwindData |  |
+| 5 | `DevicePowerEnumDevices` | `0xEDB0` | 513 | UnwindData |  |
+| 6 | `DevicePowerOpen` | `0xEFE0` | 119 | UnwindData |  |
+| 7 | `DevicePowerSetDeviceState` | `0xF060` | 129 | UnwindData |  |
+| 49 | `PowerGetUserAwayMinPredictionConfidence` | `0xF5D0` | 96 | UnwindData |  |
+| 55 | `PowerOpenSystemPowerKey` | `0xF640` | 108 | UnwindData |  |
+| 56 | `PowerOpenUserPowerKey` | `0xF6C0` | 118 | UnwindData |  |
+| 57 | `PowerPolicyToGUIDFormat` | `0xF740` | 1,415 | UnwindData |  |
+| 87 | `PowerReplaceDefaultPowerSchemes` | `0xFCD0` | 105 | UnwindData |  |
+| 89 | `PowerReportThermalEvent` | `0xFD40` | 77 | UnwindData |  |
+| 94 | `PowerRestoreDefaultPowerSchemes` | `0xFDA0` | 85 | UnwindData |  |
+| 95 | `PowerRestoreIndividualDefaultPowerScheme` | `0xFE00` | 119 | UnwindData |  |
+| 48 | `PowerGetProfiles` | `0xFE90` | 347 | UnwindData |  |
+| 68 | `PowerReadIconResourceSpecifier` | `0x10000` | 69 | UnwindData |  |
+| 69 | `PowerReadPossibleDescription` | `0x10050` | 68 | UnwindData |  |
+| 71 | `PowerReadPossibleValue` | `0x100A0` | 172 | UnwindData |  |
+| 72 | `PowerReadProfileAlias` | `0x10160` | 137 | UnwindData |  |
+| 73 | `PowerReadSecurityDescriptor` | `0x101F0` | 347 | UnwindData |  |
+| 24 | `PowerCleanupOverrides` | `0x10360` | 85 | UnwindData |  |
+| 29 | `PowerCreatePossibleSetting` | `0x103C0` | 129 | UnwindData |  |
+| 30 | `PowerCreateSetting` | `0x10450` | 113 | UnwindData |  |
+| 40 | `PowerDuplicateScheme` | `0x104D0` | 517 | UnwindData |  |
+| 52 | `PowerImportPowerScheme` | `0x106E0` | 452 | UnwindData |  |
+| 80 | `PowerRefreshProfileSettings` | `0x108B0` | 85 | UnwindData |  |
+| 86 | `PowerRemovePowerSetting` | `0x10910` | 113 | UnwindData |  |
+| 90 | `PowerRestoreACDefaultIndex` | `0x10990` | 106 | UnwindData |  |
+| 92 | `PowerRestoreDCDefaultIndex` | `0x10A00` | 102 | UnwindData |  |
+| 93 | `PowerRestoreDCProfileIndex` | `0x10A70` | 106 | UnwindData |  |
+| 113 | `PowerWriteACDefaultIndex` | `0x10AE0` | 137 | UnwindData |  |
+| 114 | `PowerWriteACProfileIndex` | `0x10B70` | 145 | UnwindData |  |
+| 116 | `PowerWriteDCDefaultIndex` | `0x10C10` | 137 | UnwindData |  |
+| 117 | `PowerWriteDCProfileIndex` | `0x10CA0` | 145 | UnwindData |  |
+| 119 | `PowerWriteDescription` | `0x10D40` | 133 | UnwindData |  |
+| 121 | `PowerWriteIconResourceSpecifier` | `0x10DD0` | 133 | UnwindData |  |
+| 122 | `PowerWritePossibleDescription` | `0x10E60` | 143 | UnwindData |  |
+| 124 | `PowerWritePossibleValue` | `0x10F00` | 146 | UnwindData |  |
+| 128 | `PowerWriteValueMax` | `0x10FA0` | 129 | UnwindData |  |
+| 129 | `PowerWriteValueMin` | `0x11030` | 129 | UnwindData |  |
+| 130 | `PowerWriteValueUnitsSpecifier` | `0x110C0` | 136 | UnwindData |  |
+| 42 | `PowerEnumerateSettings` | `0x11250` | 434 | UnwindData |  |
+| 21 | `PowerApplyPowerRequestOverride` | `0x11410` | 85 | UnwindData |  |
+| 46 | `PowerGetEffectiveOverlayScheme` | `0x11470` | 177 | UnwindData |  |
+| 79 | `PowerReapplyActiveScheme` | `0x11530` | 60 | UnwindData |  |
+| 96 | `PowerSetActiveOverlayScheme` | `0x11580` | 110 | UnwindData |  |
+| 45 | `PowerGetAdaptiveStandbyDiagnostics` | `0x11600` | 218 | UnwindData |  |
+| 98 | `PowerSetAlsBrightnessOffset` | `0x116E0` | 66 | UnwindData |  |
+| 50 | `PowerGetUserConfiguredACPowerMode` | `0x11730` | 139 | UnwindData |  |
+| 51 | `PowerGetUserConfiguredDCPowerMode` | `0x117D0` | 139 | UnwindData |  |
+| 101 | `PowerSetUserConfiguredACPowerMode` | `0x11870` | 79 | UnwindData |  |
+| 102 | `PowerSetUserConfiguredDCPowerMode` | `0x118D0` | 79 | UnwindData |  |
+| 27 | `PowerCloseLimitsMitigation` | `0x12080` | 394 | UnwindData |  |
+| 28 | `PowerCloseLimitsPolicy` | `0x12300` | 205 | UnwindData |  |
+| 84 | `PowerRegisterLimitsPolicy` | `0x123E0` | 411 | UnwindData |  |
+| 88 | `PowerReportLimitsEvent` | `0x12680` | 388 | UnwindData |  |

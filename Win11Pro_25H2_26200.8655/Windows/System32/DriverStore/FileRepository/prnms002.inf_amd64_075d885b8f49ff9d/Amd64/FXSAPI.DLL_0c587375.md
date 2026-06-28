@@ -1,0 +1,186 @@
+# Binary Specification: FXSAPI.DLL
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\DriverStore\FileRepository\prnms002.inf_amd64_075d885b8f49ff9d\Amd64\FXSAPI.DLL`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `0c5873756944863af1eb1a25d3031fb677e5aaf1170d4a4f2bd8652cb6fb7c5b`
+* **Total Exported Functions:** 175
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 48 | `FaxFreeBuffer` | `0x3B50` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 106 | `FaxInitializeEventQueue` | `0x3B60` | 80 | UnwindData |  |
+| 112 | `FaxRegisterForServerEvents` | `0x3BC0` | 77 | UnwindData |  |
+| 113 | `FaxRegisterForServerEventsEx` | `0x3C20` | 85 | UnwindData |  |
+| 170 | `FaxUnregisterForServerEvents` | `0x3C80` | 439 | UnwindData |  |
+| 4 | `FaxAccessCheck` | `0x43B0` | 431 | UnwindData |  |
+| 5 | `FaxAccessCheckEx` | `0x4570` | 122 | UnwindData |  |
+| 6 | `FaxAccessCheckEx2` | `0x45F0` | 122 | UnwindData |  |
+| 7 | `FaxAddOutboundGroupA` | `0x4670` | 553 | UnwindData |  |
+| 8 | `FaxAddOutboundGroupW` | `0x48A0` | 564 | UnwindData |  |
+| 9 | `FaxAddOutboundRuleA` | `0x4AE0` | 348 | UnwindData |  |
+| 10 | `FaxAddOutboundRuleW` | `0x4C50` | 621 | UnwindData |  |
+| 11 | `FaxAnswerCall` | `0x4ED0` | 547 | UnwindData |  |
+| 24 | `FaxEnumGlobalRoutingInfoA` | `0x5100` | 388 | UnwindData |  |
+| 25 | `FaxEnumGlobalRoutingInfoW` | `0x5290` | 1,176 | UnwindData |  |
+| 34 | `FaxEnumOutboundGroupsA` | `0x5730` | 330 | UnwindData |  |
+| 35 | `FaxEnumOutboundGroupsW` | `0x5880` | 840 | UnwindData |  |
+| 36 | `FaxEnumOutboundRulesA` | `0x5BD0` | 400 | UnwindData |  |
+| 37 | `FaxEnumOutboundRulesW` | `0x5D70` | 956 | UnwindData |  |
+| 42 | `FaxEnumRoutingExtensionsA` | `0x6140` | 618 | UnwindData |  |
+| 43 | `FaxEnumRoutingExtensionsW` | `0x63B0` | 1,105 | UnwindData |  |
+| 51 | `FaxGetActivityLoggingConfigurationA` | `0x6810` | 270 | UnwindData |  |
+| 52 | `FaxGetActivityLoggingConfigurationW` | `0x6930` | 648 | UnwindData |  |
+| 53 | `FaxGetArchiveConfigurationA` | `0x6BC0` | 286 | UnwindData |  |
+| 54 | `FaxGetArchiveConfigurationW` | `0x6CF0` | 747 | UnwindData |  |
+| 55 | `FaxGetConfigOption` | `0x6FF0` | 404 | UnwindData |  |
+| 56 | `FaxGetConfigWizardUsed` | `0x7190` | 376 | UnwindData |  |
+| 57 | `FaxGetConfigurationA` | `0x7310` | 292 | UnwindData |  |
+| 58 | `FaxGetConfigurationW` | `0x7440` | 645 | UnwindData |  |
+| 59 | `FaxGetCountryListA` | `0x76D0` | 343 | UnwindData |  |
+| 60 | `FaxGetCountryListW` | `0x7830` | 678 | UnwindData |  |
+| 65 | `FaxGetGeneralConfiguration` | `0x7AE0` | 802 | UnwindData |  |
+| 71 | `FaxGetLoggingCategoriesA` | `0x7E10` | 516 | UnwindData |  |
+| 72 | `FaxGetLoggingCategoriesW` | `0x8020` | 798 | UnwindData |  |
+| 78 | `FaxGetOutboxConfiguration` | `0x8350` | 408 | UnwindData |  |
+| 80 | `FaxGetPersonalCoverPagesOption` | `0x84F0` | 402 | UnwindData |  |
+| 85 | `FaxGetQueueStates` | `0x8690` | 400 | UnwindData |  |
+| 86 | `FaxGetReceiptsConfigurationA` | `0x8830` | 346 | UnwindData |  |
+| 87 | `FaxGetReceiptsConfigurationW` | `0x8990` | 914 | UnwindData |  |
+| 88 | `FaxGetReceiptsOptions` | `0x8D30` | 408 | UnwindData |  |
+| 101 | `FaxGetServerActivity` | `0x8ED0` | 462 | UnwindData |  |
+| 103 | `FaxGetServicePrintersA` | `0x90B0` | 363 | UnwindData |  |
+| 104 | `FaxGetServicePrintersW` | `0x9230` | 1,013 | UnwindData |  |
+| 105 | `FaxGetVersion` | `0x9630` | 462 | UnwindData |  |
+| 111 | `FaxRefreshArchive` | `0x9810` | 457 | UnwindData |  |
+| 119 | `FaxRemoveOutboundGroupA` | `0x99E0` | 218 | UnwindData |  |
+| 120 | `FaxRemoveOutboundGroupW` | `0x9AC0` | 566 | UnwindData |  |
+| 121 | `FaxRemoveOutboundRule` | `0x9D00` | 410 | UnwindData |  |
+| 129 | `FaxSetActivityLoggingConfigurationA` | `0x9EA0` | 462 | UnwindData |  |
+| 130 | `FaxSetActivityLoggingConfigurationW` | `0xA080` | 655 | UnwindData |  |
+| 131 | `FaxSetArchiveConfigurationA` | `0xA320` | 489 | UnwindData |  |
+| 132 | `FaxSetArchiveConfigurationW` | `0xA510` | 774 | UnwindData |  |
+| 133 | `FaxSetConfigWizardUsed` | `0xA820` | 477 | UnwindData |  |
+| 134 | `FaxSetConfigurationA` | `0xAA10` | 649 | UnwindData |  |
+| 135 | `FaxSetConfigurationW` | `0xACA0` | 638 | UnwindData |  |
+| 136 | `FaxSetDeviceOrderInGroupA` | `0xAF30` | 236 | UnwindData |  |
+| 137 | `FaxSetDeviceOrderInGroupW` | `0xB030` | 625 | UnwindData |  |
+| 140 | `FaxSetGeneralConfiguration` | `0xB2B0` | 866 | UnwindData |  |
+| 141 | `FaxSetGlobalRoutingInfoA` | `0xB620` | 798 | UnwindData |  |
+| 142 | `FaxSetGlobalRoutingInfoW` | `0xB950` | 476 | UnwindData |  |
+| 145 | `FaxSetLoggingCategoriesA` | `0xBB40` | 674 | UnwindData |  |
+| 146 | `FaxSetLoggingCategoriesW` | `0xBDF0` | 1,068 | UnwindData |  |
+| 148 | `FaxSetOutboundGroupA` | `0xC230` | 735 | UnwindData |  |
+| 149 | `FaxSetOutboundGroupW` | `0xC520` | 731 | UnwindData |  |
+| 150 | `FaxSetOutboundRuleA` | `0xC810` | 586 | UnwindData |  |
+| 151 | `FaxSetOutboundRuleW` | `0xCA60` | 753 | UnwindData |  |
+| 152 | `FaxSetOutboxConfiguration` | `0xCD60` | 620 | UnwindData |  |
+| 157 | `FaxSetQueue` | `0xCFE0` | 405 | UnwindData |  |
+| 158 | `FaxSetReceiptsConfigurationA` | `0xD180` | 779 | UnwindData |  |
+| 159 | `FaxSetReceiptsConfigurationW` | `0xD4A0` | 743 | UnwindData |  |
+| 13 | `FaxClose` | `0xE190` | 595 | UnwindData |  |
+| 16 | `FaxConnectFaxServerA` | `0xE3F0` | 137 | UnwindData |  |
+| 17 | `FaxConnectFaxServerW` | `0xE480` | 1,202 | UnwindData |  |
+| 61 | `FaxGetDeviceStatusA` | `0xE940` | 406 | UnwindData |  |
+| 62 | `FaxGetDeviceStatusW` | `0xEAE0` | 1,541 | UnwindData |  |
+| 92 | `FaxGetReportedServerAPIVersion` | `0xF0F0` | 244 | UnwindData |  |
+| 95 | `FaxGetSecurity` | `0xF1F0` | 407 | UnwindData |  |
+| 96 | `FaxGetSecurityEx` | `0xF390` | 32 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 97 | `FaxGetSecurityEx2` | `0xF3B0` | 32 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 117 | `FaxRelease` | `0xF3D0` | 425 | UnwindData |  |
+| 162 | `FaxSetSecurity` | `0xF580` | 32 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 163 | `FaxSetSecurityEx2` | `0xF5A0` | 24,752 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 3 | `FaxAbort` | `0x15650` | 407 | UnwindData |  |
+| 12 | `FaxCheckValidFaxFolder` | `0x157F0` | 396 | UnwindData |  |
+| 22 | `FaxEndMessagesEnum` | `0x15990` | 356 | UnwindData |  |
+| 26 | `FaxEnumJobsA` | `0x15B00` | 462 | UnwindData |  |
+| 27 | `FaxEnumJobsEx2` | `0x15CE0` | 163 | UnwindData |  |
+| 28 | `FaxEnumJobsExA` | `0x15D90` | 488 | UnwindData |  |
+| 29 | `FaxEnumJobsExW` | `0x15F80` | 147 | UnwindData |  |
+| 30 | `FaxEnumJobsW` | `0x16020` | 1,710 | UnwindData |  |
+| 31 | `FaxEnumMessagesA` | `0x166E0` | 533 | UnwindData |  |
+| 32 | `FaxEnumMessagesEx` | `0x16900` | 132 | UnwindData |  |
+| 33 | `FaxEnumMessagesW` | `0x16990` | 132 | UnwindData |  |
+| 66 | `FaxGetJobA` | `0x16A20` | 1,680 | UnwindData |  |
+| 67 | `FaxGetJobEx2` | `0x170C0` | 134 | UnwindData |  |
+| 68 | `FaxGetJobExA` | `0x17150` | 472 | UnwindData |  |
+| 69 | `FaxGetJobExW` | `0x17330` | 121 | UnwindData |  |
+| 70 | `FaxGetJobW` | `0x173B0` | 1,460 | UnwindData |  |
+| 73 | `FaxGetMessageA` | `0x17970` | 488 | UnwindData |  |
+| 74 | `FaxGetMessageEx` | `0x17B60` | 144 | UnwindData |  |
+| 75 | `FaxGetMessageTiffA` | `0x17C00` | 96 | UnwindData |  |
+| 76 | `FaxGetMessageTiffW` | `0x17C70` | 1,862 | UnwindData |  |
+| 77 | `FaxGetMessageW` | `0x183C0` | 139 | UnwindData |  |
+| 79 | `FaxGetPageData` | `0x18460` | 515 | UnwindData |  |
+| 89 | `FaxGetRecipientInfoA` | `0x18670` | 26 | UnwindData |  |
+| 90 | `FaxGetRecipientInfoW` | `0x18690` | 26 | UnwindData |  |
+| 91 | `FaxGetRecipientsLimit` | `0x186B0` | 462 | UnwindData |  |
+| 98 | `FaxGetSenderInfoA` | `0x18890` | 26 | UnwindData |  |
+| 99 | `FaxGetSenderInfoW` | `0x188B0` | 26 | UnwindData |  |
+| 102 | `FaxGetServerSKU` | `0x188D0` | 569 | UnwindData |  |
+| 118 | `FaxRemoveMessage` | `0x18B10` | 465 | UnwindData |  |
+| 122 | `FaxSendDocumentA` | `0x18CF0` | 3,929 | UnwindData |  |
+| 123 | `FaxSendDocumentEx2` | `0x19C50` | 106 | UnwindData |  |
+| 124 | `FaxSendDocumentExA` | `0x19CC0` | 82 | UnwindData |  |
+| 125 | `FaxSendDocumentExW` | `0x19D20` | 119 | UnwindData |  |
+| 126 | `FaxSendDocumentForBroadcastA` | `0x19DA0` | 323 | UnwindData |  |
+| 127 | `FaxSendDocumentForBroadcastW` | `0x19EF0` | 33 | UnwindData |  |
+| 128 | `FaxSendDocumentW` | `0x19F20` | 1,362 | UnwindData |  |
+| 143 | `FaxSetJobA` | `0x1A480` | 206 | UnwindData |  |
+| 144 | `FaxSetJobW` | `0x1A560` | 493 | UnwindData |  |
+| 147 | `FaxSetMessage` | `0x1A760` | 609 | UnwindData |  |
+| 165 | `FaxStartMessagesEnum` | `0x1A9D0` | 129 | UnwindData |  |
+| 166 | `FaxStartMessagesEnumEx` | `0x1AA60` | 150 | UnwindData |  |
+| 20 | `FaxEnableRoutingMethodA` | `0x1AE00` | 99 | UnwindData |  |
+| 21 | `FaxEnableRoutingMethodW` | `0x1AE70` | 401 | UnwindData |  |
+| 38 | `FaxEnumPortsA` | `0x1B010` | 293 | UnwindData |  |
+| 39 | `FaxEnumPortsExA` | `0x1B140` | 527 | UnwindData |  |
+| 40 | `FaxEnumPortsExW` | `0x1B360` | 1,249 | UnwindData |  |
+| 41 | `FaxEnumPortsW` | `0x1B850` | 970 | UnwindData |  |
+| 44 | `FaxEnumRoutingMethodsA` | `0x1BC20` | 334 | UnwindData |  |
+| 45 | `FaxEnumRoutingMethodsW` | `0x1BD80` | 1,192 | UnwindData |  |
+| 46 | `FaxEnumerateProvidersA` | `0x1C230` | 418 | UnwindData |  |
+| 47 | `FaxEnumerateProvidersW` | `0x1C3E0` | 1,055 | UnwindData |  |
+| 63 | `FaxGetExtensionDataA` | `0x1C810` | 202 | UnwindData |  |
+| 64 | `FaxGetExtensionDataW` | `0x1C8E0` | 380 | UnwindData |  |
+| 81 | `FaxGetPortA` | `0x1CA70` | 260 | UnwindData |  |
+| 82 | `FaxGetPortExA` | `0x1CB80` | 427 | UnwindData |  |
+| 83 | `FaxGetPortExW` | `0x1CD40` | 1,166 | UnwindData |  |
+| 84 | `FaxGetPortW` | `0x1D1E0` | 786 | UnwindData |  |
+| 93 | `FaxGetRoutingInfoA` | `0x1D500` | 115 | UnwindData |  |
+| 94 | `FaxGetRoutingInfoW` | `0x1D580` | 464 | UnwindData |  |
+| 107 | `FaxOpenPort` | `0x1D760` | 472 | UnwindData |  |
+| 138 | `FaxSetExtensionDataA` | `0x1D940` | 200 | UnwindData |  |
+| 139 | `FaxSetExtensionDataW` | `0x1DA10` | 510 | UnwindData |  |
+| 153 | `FaxSetPortA` | `0x1DC20` | 549 | UnwindData |  |
+| 154 | `FaxSetPortExA` | `0x1DE50` | 543 | UnwindData |  |
+| 155 | `FaxSetPortExW` | `0x1E080` | 468 | UnwindData |  |
+| 156 | `FaxSetPortW` | `0x1E260` | 486 | UnwindData |  |
+| 160 | `FaxSetRoutingInfoA` | `0x1E450` | 115 | UnwindData |  |
+| 161 | `FaxSetRoutingInfoW` | `0x1E4D0` | 455 | UnwindData |  |
+| 175 | `IsDeviceVirtual` | `0x1E6A0` | 410 | UnwindData |  |
+| 108 | `FaxPrintCoverPageA` | `0x1EBA0` | 806 | UnwindData |  |
+| 109 | `FaxPrintCoverPageW` | `0x1EED0` | 1,310 | UnwindData |  |
+| 167 | `FaxStartPrintJob2W` | `0x1F7E0` | 3,294 | UnwindData |  |
+| 168 | `FaxStartPrintJobA` | `0x204D0` | 23 | UnwindData |  |
+| 169 | `FaxStartPrintJobW` | `0x204F0` | 29 | UnwindData |  |
+| 14 | `FaxCompleteJobParamsA` | `0x21680` | 529 | UnwindData |  |
+| 15 | `FaxCompleteJobParamsW` | `0x218A0` | 2,924 | UnwindData |  |
+| 1 | `FXSAPIFree` | `0x22590` | 60 | UnwindData |  |
+| 2 | `FXSAPIInitialize` | `0x225E0` | 148 | UnwindData |  |
+| 114 | `FaxRegisterRoutingExtensionW` | `0x22A70` | 3,274 | UnwindData |  |
+| 115 | `FaxRegisterServiceProviderExA` | `0x23740` | 583 | UnwindData |  |
+| 116 | `FaxRegisterServiceProviderExW` | `0x23990` | 603 | UnwindData |  |
+| 171 | `FaxUnregisterRoutingExtensionA` | `0x23C00` | 214 | UnwindData |  |
+| 172 | `FaxUnregisterRoutingExtensionW` | `0x23CE0` | 400 | UnwindData |  |
+| 173 | `FaxUnregisterServiceProviderExA` | `0x23E80` | 214 | UnwindData |  |
+| 174 | `FaxUnregisterServiceProviderExW` | `0x23F60` | 400 | UnwindData |  |
+| 49 | `FaxFreeSenderInformation` | `0x24150` | 174 | UnwindData |  |
+| 100 | `FaxGetSenderInformation` | `0x24210` | 1,086 | UnwindData |  |
+| 164 | `FaxSetSenderInformation` | `0x24660` | 783 | UnwindData |  |
+| 18 | `FaxCreateAccount` | `0x24C80` | 814 | UnwindData |  |
+| 19 | `FaxDeleteAccount` | `0x24FC0` | 325 | UnwindData |  |
+| 23 | `FaxEnumAccounts` | `0x25110` | 842 | UnwindData |  |
+| 50 | `FaxGetAccountInfo` | `0x25460` | 16 | ContiguousDelta | *Size estimated via contiguous RVA delta.* |
+| 110 | `FaxReAssignMessage` | `0x25470` | 411 | UnwindData |  |

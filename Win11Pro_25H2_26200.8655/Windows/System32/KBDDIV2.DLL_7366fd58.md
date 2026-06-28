@@ -1,0 +1,12 @@
+# Binary Specification: KBDDIV2.DLL
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\KBDDIV2.DLL`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `7366fd58686bb7baa2ff243a8639a07017260832c703bdf8fc35e7827705e478`
+* **Total Exported Functions:** 1
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `KbdLayerDescriptor` | `0x1010` | 0 | Indeterminate |  |

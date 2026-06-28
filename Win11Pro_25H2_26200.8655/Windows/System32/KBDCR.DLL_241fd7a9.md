@@ -1,0 +1,12 @@
+# Binary Specification: KBDCR.DLL
+
+## Binary Metadata
+* **Original Path:** `C:\Windows\System32\KBDCR.DLL`
+* **Architecture:** x64
+* **SHA256 Fingerprint:** `241fd7a96ba77eb2f097954ee4bdd051919edf1b56eb171d861cb58080697558`
+* **Total Exported Functions:** 1
+
+## Exported Interface Map
+| Ordinal | Export Name | Relative Virtual Address (RVA) | Function Size (Bytes) | Size Calculation Method | Notes / Forward Target |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 1 | `KbdLayerDescriptor` | `0x1010` | 0 | Indeterminate |  |

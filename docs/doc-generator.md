@@ -1,7 +1,4 @@
-### 📄 `doc_generator.README.md`
-
-```markdown
-# Documentation Generator (`doc_generator.py`)
+# Documentation Generator (`doc-generator.py`)
 
 A data transformation pipeline that consumes raw tabular export inventories and reorganizes them into human-navigable, markdown-based reference libraries.
 
